@@ -1,0 +1,136 @@
+* {margin:0;padding:0;box-sizing:border-box;}
+img {border:none;}
+
+body {font-size:100%;border-top:solid 5px #0C8DC4;font-family:Arial, sans-serif;}
+
+h1, h2, h3, h4, h5, h6 {text-transform:uppercase;font-weight:normal;color:black;margin-bottom:0.5em;font-family:Georgia, "Times New Roman", Times, serif;}
+h1 {font-size:5vw;}
+h2 {font-size:4vw;text-align:left;}
+h3 {font-size:3vw;color:white;}
+p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
+button {cursor:pointer;text-transform:uppercase;background-color:yellow;color:black;}
+a {color:#0C8DC4;}
+a:hover {color:#0C8DC4;}
+
+/*Top*/
+/*color:#CAC697;*/
+header {padding:8% 5% 0 5%;background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
+header img {width:50%;height:auto;float:left;margin-left:50%;margin-top:-35%;}
+/*header h1 {width:90%;font-style:italic;}*/
+header h1 {text-align:center;width:60%;padding:0.1em 0;border:double 6px black;border-left:none;border-right:none;}
+header h1 s {display:none;}
+header p {width:50%;font-style:italic;font-size:3vw;line-height:3.6vw;}
+header button {width:25%;margin-left:25%;font-size:1.4vw;border:solid 1px #CCC;padding:1% 2%;}
+
+/*Sections*/
+section {float:left;width:100%;padding:5%;}
+
+#bio p.intro {font-size:32px;line-height:44px;float:left;width:38%;}
+#bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;}
+#bio h2 {color:black;}
+
+#recent-work {background-color:#141414;color:white;position:relative;float:left;width:100%;height:480px;}
+#recent-work h2 {color:white;}
+#recent-work #video {position:absolute;top:0;left:0;width:100%;height:100%;}
+#recent-work div {position:absolute;width:90%;}
+#recent-work img {float:left;}
+
+#work {background-color:#EFEFEF;padding:2% 0;}
+#work h2 {padding:1% 5%;text-align:center;}
+#work li {display:inline;float:left;width:33.33%;}
+#work li img {width:100%;height:auto;}
+#work li img {display:none}
+#work li img.logo {display:block;}
+
+#work details {padding:2% 8%;float:left;width:100%;}
+#work summary {text-align:center;}
+#work summary::-webkit-details-marker {display:none;}
+#work summary:after {background:red;border-radius: 5px;content: "+";color: #fff;float: left;font-size: 1.5em;font-weight: bold;margin: -5px 10px 0 0;padding: 0;text-align: center;width: 20px;}
+#work details[open] summary:after {content: "-";}
+#work details li small {display:block;}
+
+#personal h2 {color:black;}
+
+/*Bottom*/
+footer {text-align:center;background-color:#141414;color:white;float:left;width:100%;padding:2vw;}
+footer a {display:block;color:white;}
+footer nav {font-size:3vw;}
+footer nav a {display:inline;text-decoration:none;}
+
+
+
+
+
+/*background-color:#28231F;*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.work li {display:block;float:none;width:100%;}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}

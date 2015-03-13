@@ -1,0 +1,212 @@
+# BEGIN WpFastestCache
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+AddDefaultCharset UTF-8
+RewriteCond %{HTTP_HOST} ^dburnsdesign.com
+RewriteRule ^(.*)$ http\:\/\/www\.dburnsdesign\.com\/$1 [R=301,L]
+RewriteCond %{REQUEST_METHOD} !POST
+RewriteCond %{QUERY_STRING} !.*=.*
+RewriteCond %{HTTP:X-Wap-Profile} !^[a-z0-9\"]+ [NC]
+RewriteCond %{HTTP:Profile} !^[a-z0-9\"]+ [NC]
+RewriteCond %{HTTP_USER_AGENT} !^.*(iphone|sony|symbos|nokia|samsung|mobile|epoc|ericsson|panasonic|philips|sanyo|sharp|sie-|portalmmm|blazer|avantgo|danger|palm|series60|palmsource|pocketpc|android|blackberry|playbook|ipad|ipod|iemobile|palmos|webos|googlebot-mobile|bb10|xoom|p160u|nexus|touch|SCH-I800).*$ [NC]
+RewriteCond %{DOCUMENT_ROOT}/wp-content/cache/all/$1/index.html -f [or]
+RewriteCond /var/www/vhosts/dburnsdesign.com/httpdocs/blog/wp-content/cache/all/$1/index.html -f
+RewriteRule ^(.*) "/blog/wp-content/cache/all/$1/index.html" [L]
+</IfModule>
+<FilesMatch "\.(html|htm)$">
+FileETag None
+<ifModule mod_headers.c>
+Header unset ETag
+Header set Cache-Control "max-age=0, no-cache, no-store, must-revalidate"
+Header set Pragma "no-cache"
+Header set Expires "Mon, 29 Oct 1923 20:30:00 GMT"
+</ifModule>
+</FilesMatch>
+# END WpFastestCache
+# BEGIN GzipWpFastestCache
+<IfModule mod_deflate.c>
+AddOutputFilterByType DEFLATE image/svg+xml
+AddOutputFilterByType DEFLATE text/plain
+AddOutputFilterByType DEFLATE text/html
+AddOutputFilterByType DEFLATE text/xml
+AddOutputFilterByType DEFLATE text/css
+AddOutputFilterByType DEFLATE application/xml
+AddOutputFilterByType DEFLATE application/xhtml+xml
+AddOutputFilterByType DEFLATE application/rss+xml
+AddOutputFilterByType DEFLATE application/javascript
+AddOutputFilterByType DEFLATE application/x-javascript
+AddOutputFilterByType DEFLATE application/x-font-ttf
+AddOutputFilterByType DEFLATE application/vnd.ms-fontobject
+AddOutputFilterByType DEFLATE font/opentype font/ttf font/eot font/otf
+</IfModule>
+# END GzipWpFastestCache
+# BEGIN LBCWpFastestCache
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf|x-html|css|xml|js|woff|ttf|svg|eot)(\.gz)?$">
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresDefault A0
+ExpiresByType image/gif A2592000
+ExpiresByType image/png A2592000
+ExpiresByType image/jpg A2592000
+ExpiresByType image/jpeg A2592000
+ExpiresByType image/ico A2592000
+ExpiresByType text/css A2592000
+ExpiresByType text/javascript A2592000
+ExpiresByType application/javascript A2592000
+</IfModule>
+<IfModule mod_headers.c>
+Header set Expires "max-age=2592000, public"
+Header unset ETag
+Header set Connection keep-alive
+</IfModule>
+FileETag None
+</FilesMatch>
+# END LBCWpFastestCache
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php [L]
+</IfModule>
+# END WordPress
+# REDIRECTS OLD SITE
+Redirect 301 /news/hellenic-holidays-plans-your-next-greek-getaway/helleenic-holiday-new-website/ http://www.dburnsdesign.com/blog/
+Redirect 301 /news/comments/feed/ http://www.dburnsdesign.com/blog/
+Redirect 301 /services_flashanimations.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_hosting.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_paidsearch.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-web-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /news/tag/web-design-agency/ http://www.dburnsdesign.com/blog/contact-us/
+Redirect 301 /quote_new.php http://www.dburnsdesign.com/contact-us/
+Redirect 301 /quote.php http://www.dburnsdesign.com/contact-us/
+Redirect 301 /aboutus_history.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /aboutus_culture.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /news/2008/10/hellenic-holidays-plans-your-next-greek-getaway/hellenic-holidays-before-the-re-design/ http://www.dburnsdesign.com/blog/2008/10/hellenic-holidays-plans-your-next-greek-getaway/
+Redirect 301 /news/2008/10/hellenic-holidays-plans-your-next-greek-getaway/hellenic-holidays/ http://www.dburnsdesign.com/blog/2008/10/hellenic-holidays-plans-your-next-greek-getaway/
+Redirect 301 /news/2008/10/hellenic-holidays-plans-your-next-greek-getaway/helleenic-holiday-new-website/ http://www.dburnsdesign.com/blog/2008/10/hellenic-holidays-plans-your-next-greek-getaway/
+Redirect 301 /news/2008/10/hellenic-holidays-plans-your-next-greek-getaway/hellenic-holidays-after-dburns-desgin-overhaul/ http://www.dburnsdesign.com/blog/2008/10/hellenic-holidays-plans-your-next-greek-getaway/
+Redirect 301 /news/tag/musester-artistis-talent-entertainment-johnny-buss http://www.dburnsdesign.com
+Redirect 301 /blog/category/website-portfolio/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/hellenic-holidays-plans-your-next-greek-getaway/helleenic-holiday-new-website/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/tag/musester-artistis-talent-entertainment-johnny-buss/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/category/case-study/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/category/website-design/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/tinypng.com http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2007/10/23/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2014/05/the-difference-between-good-ui-and-bad-ui/tinypng.com http://www.dburnsdesign.com/blog/
+# REDIRECTS NEW SITE
+Redirect 301 /aboutus_main.php http://www.dburnsdesign.com/about-us
+Redirect 301 /business-to-business-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /business-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /contact_main.php http://www.dburnsdesign.com/contact-us/
+Redirect 301 /corporate-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /corporate-website-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /corporate-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /custom-corporate-identity.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /custom-ecommerce-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /custom-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /cutting-edge-technology-and-our-professional-website-design-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-catalog-setup.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-web-design-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /ecommerce-website-solutions.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /entertainment-website-design.php http://www.dburnsdesign.com/blog/2007/11/entertainment-website-design/
+Redirect 301 /film-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /flash-animation-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /flash-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /flash-website-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /hollywood-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /las-vegas-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /las-vegas-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /las-vegas-website-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /las-vegas-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-ecommerce-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-web-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-web-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /los-angeles-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /multimedia-flash-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /onlinemkt_main.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /orange-county-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /orange-county-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /orange-county-website-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /orange-county-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /our-cms-system.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /portfolio.php http://www.dburnsdesign.com/our-work/
+Redirect 301 /professional-graphic-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-web-design-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-web-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-website-design-company.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-website-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-website-development.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /professional-website-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /quote_request.php http://www.dburnsdesign.com/contact-us/
+Redirect 301 /san-diego-web-site-designers.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /san-diego-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /santa-monica-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /seo-friendly-professional-website-design-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_ecommerce.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_graphicdesign.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_main.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_mobiledevelopment.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_softwaredevelopment.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_websitecreation.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_websitemaintenance.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /shopping-cart-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /social-networking-website-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /software-development-company.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /testimonials_main.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /web-page-design-company.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-content-management.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-design-and-maintenance.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-design-consultants.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-design-san-diego.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-design-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-development-company.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-graphics.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-logo-design.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-maintenance-company.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-maintenance-services.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /website-management.php http://www.dburnsdesign.com/about-us/
+Redirect 301 /west-hollywood-website-design.php http://www.dburnsdesign.com/about-us/
+# VEry old 404 from webmaster tools
+Redirect 301 /services_flashanimations.shtml http://www.dburnsdesign.com/about-us/
+Redirect 301 /services_softwaredevelopment.shtml http://www.dburnsdesign.com/about-us/
+Redirect 301 /services http://www.dburnsdesign.com/about-us/
+Redirect 301 /images/cx_flash.swf http://www.dburnsdesign.com/
+Redirect 301 /blog/2014/05/responsive-buzzword-can-ruin-exciting-technology/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/glossary/seo/ http://www.dburnsdesign.com/blog/
+Redirect 301 /portfolio_web_firstmedia01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /portfolio_web_area01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /blog/glossary/landing-page/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/home-page/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2014/11/hello-world/ http://www.dburnsdesign.com/blog/
+Redirect 301 /portfolio_web_emergia01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /portfolio_web_music01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /portfolio_web_telefonica01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /portfolio_web_umbro01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /&force=1 http://www.dburnsdesign.com/
+Redirect 301 /project_files/echelon/services_breakaway.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /, http://www.dburnsdesign.com/
+Redirect 301 /blog/glossary/test/ http://www.dburnsdesign.com/blog/
+Redirect 301 /aboutus_main.phpDBurns http://www.dburnsdesign.com/about-us/
+Redirect 301 /aboutus http://www.dburnsdesign.com/about-us/
+Redirect 301 /blog/2014/04/10-ways-make-service-page-irresistibly-engaging/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2012/02/ripe-design-candy-designers-website/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2014/04/6-parts-website-need-track-grow-revenue/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/category/cases/ http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/?s=%7Bsearch_term%7D http://www.dburnsdesign.com/blog/
+Redirect 301 /blog/2011/06/html5-draft-specification-achieves-%E2%80%98last-call%E2%80%99-status/ http://www.dburnsdesign.com/blog/
+Redirect 301 /portfolio_flash_absolut01.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /web http://www.dburnsdesign.com/
+Redirect 301 /bl http://www.dburnsdesign.com/
+Redirect 301 /project_files/skm/suport.shtml http://www.dburnsdesign.com/our-work/
+Redirect 301 /los-angeles-ecommerce-web http://www.dburnsdesign.com/
