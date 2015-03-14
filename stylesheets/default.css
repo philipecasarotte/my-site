@@ -1,26 +1,26 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 img {border:none;}
 
-body {font-size:100%;border-top:solid 5px #0C8DC4;font-family:Arial, sans-serif;}
+body {font-size:100%;border-top:solid 5px black;font-family:Arial, sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {text-transform:uppercase;font-weight:normal;color:black;margin-bottom:0.5em;font-family:Georgia, "Times New Roman", Times, serif;}
 h1 {font-size:5vw;}
 h2 {font-size:4vw;text-align:left;}
 h3 {font-size:3vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
-button {cursor:pointer;text-transform:uppercase;background-color:yellow;color:black;}
+button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;}
 a {color:#0C8DC4;}
 a:hover {color:#0C8DC4;}
 
 /*Top*/
 /*color:#CAC697;*/
 header {padding:8% 5% 0 5%;background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
-header img {width:50%;height:auto;float:left;margin-left:50%;margin-top:-35%;}
+header img {width:50%;height:auto;float:left;margin-left:50%;margin-top:-45%;}
 /*header h1 {width:90%;font-style:italic;}*/
 header h1 {text-align:center;width:60%;padding:0.1em 0;border:double 6px black;border-left:none;border-right:none;}
 header h1 s {display:none;}
 header p {width:50%;font-style:italic;font-size:3vw;line-height:3.6vw;}
-header button {width:25%;margin-left:25%;font-size:1.4vw;border:solid 1px #CCC;padding:1% 2%;}
+header button {width:25%;margin-left:25%;font-size:1.4vw;border:solid 1px black;padding:1% 2%;}
 
 /*Sections*/
 section {float:left;width:100%;padding:5%;}
