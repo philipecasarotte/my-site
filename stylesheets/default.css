@@ -15,19 +15,19 @@ a:hover {background-color:yellow;}
 /*Top*/
 /*color:#CAC697;*/
 header {background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
-header img {width:45%;height:auto;float:right;}
-/*header h1 {width:90%;font-style:italic;}*/
-header div {float:left;width:55%;background-color:white;padding:5%;}
-header div h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border-left:none;border-right:none;}/*border:double 6px black;*/
-header div h1 s {display:none;}
-header div p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:#333;}
-header div button {width:30%;font-size:1.8vw;border:solid 3px black;padding:1% 2%;margin-top:0.5em;}
-header div button:hover {background-color:yellow;color:black;}
+header img {width:100%;height:auto;}
+header div {width:45%;height:auto;float:right;}
+header div.intro {float:left;width:55%;background-color:yellow;padding:5%;}
+header div.intro h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border-left:none;border-right:none;}/*border:double 6px black;*/
+header div.intro h1 s {display:none;}
+header div.intro p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:#333;}
+header div.intro button {width:40%;font-size:2.4vw;border:solid 3px black;padding:1% 2%;margin-top:0.5em;}
+header div.intro button:hover {background-color:yellow;color:black;}
 
 /*Sections*/
 section {float:left;width:100%;padding:5%;}
 
-#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2%;margin-bottom:2%}
+#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em}
 #bio p.intro strong {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
 #bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;width:60%;margin:0 auto;}
 #bio h2 {color:black;}
