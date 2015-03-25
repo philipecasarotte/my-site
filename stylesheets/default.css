@@ -1,31 +1,34 @@
 * {margin:0;padding:0;box-sizing:border-box;}
 img {border:none;}
 
-body {font-size:100%;border-top:solid 5px black;font-family:Arial, sans-serif;}
+body {font-size:100%;border-top:solid 3px black;font-family:Arial, sans-serif;}
 
-h1, h2, h3, h4, h5, h6 {text-transform:uppercase;font-weight:normal;color:black;margin-bottom:0.5em;font-family:Georgia, "Times New Roman", Times, serif;}
+h1, h2, h3, h4, h5, h6 {font-weight:400;color:black;margin-bottom:0.5em;font-family:"Fjalla One", sans-serif;}
 h1 {font-size:5vw;}
-h2 {font-size:4vw;text-align:left;}
-h3 {font-size:3vw;color:white;}
+h2 {font-size:3vw;text-align:left;}
+h3 {font-size:2vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
-button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;}
-a {color:#0C8DC4;}
-a:hover {color:#0C8DC4;}
+button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;}
+a {color:black;}
+a:hover {background-color:yellow;}
 
 /*Top*/
 /*color:#CAC697;*/
-header {padding:8% 5% 0 5%;background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
-header img {width:50%;height:auto;float:left;margin-left:50%;margin-top:-45%;}
+header {background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
+header img {width:45%;height:auto;float:right;}
 /*header h1 {width:90%;font-style:italic;}*/
-header h1 {text-align:center;width:60%;padding:0.1em 0;border:double 6px black;border-left:none;border-right:none;}
-header h1 s {display:none;}
-header p {width:50%;font-style:italic;font-size:3vw;line-height:3.6vw;}
-header button {width:25%;margin-left:25%;font-size:1.4vw;border:solid 1px black;padding:1% 2%;}
+header div {float:left;width:55%;background-color:white;padding:5%;}
+header div h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border-left:none;border-right:none;}/*border:double 6px black;*/
+header div h1 s {display:none;}
+header div p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:#333;}
+header div button {width:30%;font-size:1.8vw;border:solid 3px black;padding:1% 2%;margin-top:0.5em;}
+header div button:hover {background-color:yellow;color:black;}
 
 /*Sections*/
 section {float:left;width:100%;padding:5%;}
 
-#bio p.intro {font-size:32px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;}
+#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2%;margin-bottom:2%}
+#bio p.intro strong {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
 #bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;width:60%;margin:0 auto;}
 #bio h2 {color:black;}
 
