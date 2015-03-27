@@ -5,53 +5,55 @@ body {font-size:100%;border-top:solid 3px black;font-family:Arial, sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {font-weight:400;color:black;margin-bottom:0.5em;font-family:"Fjalla One", sans-serif;}
 h1 {font-size:5vw;}
-h2 {font-size:3vw;text-align:left;}
+h2 {font-size:48px;text-align:left;border-top:3px solid black;padding-top:1em;margin-bottom:1em;text-transform:uppercase;}
 h3 {font-size:2vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
 button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;}
 a {color:black;}
-a:hover {background-color:yellow;}
+a:hover {color:yellow;}
+
+p a:hover {background-color:yellow;color:black;}
 
 /*Top*/
 /*color:#CAC697;*/
-header {background-color:white;background:url(../images/header-bg.png) no-repeat;background-size:cover;color:black;overflow:hidden;position:relative;}
-header img {width:100%;height:auto;}
+header {background-color:white;color:black;overflow:hidden;position:relative;}
+header img {width:100%;height:auto;float:left;}
 header div {width:45%;height:auto;float:right;}
-header div.intro {float:left;width:55%;background-color:yellow;padding:5%;}
-header div.intro h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border-left:none;border-right:none;}/*border:double 6px black;*/
+header div.intro {float:left;width:55%;background-color:white;padding:5%;}
+header div.intro h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border:solid 3px black;border-left:none;border-right:none;}
 header div.intro h1 s {display:none;}
 header div.intro p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:#333;}
-header div.intro button {width:40%;font-size:2.4vw;border:solid 3px black;padding:1% 2%;margin-top:0.5em;}
+header div.intro p a {color:#333;}
+header div.intro button {width:auto;font-size:2.4vw;border:solid 3px black;padding:2% 10%;margin-top:0.5em;}
 header div.intro button:hover {background-color:yellow;color:black;}
 
 /*Sections*/
-section {float:left;width:100%;padding:5%;}
+section {float:left;width:100%;padding:8% 5%;}
 
-#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em}
+#bio {background-color:#F2F2F2;}
+#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;}
 #bio p.intro strong {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
 #bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;width:60%;margin:0 auto;}
 #bio h2 {color:black;}
+#bio p a {font-family:"Fjalla One", sans-serif;font-size:16px;text-transform:uppercase;}
 
-#recent-work {background-color:#141414;color:white;position:relative;float:left;width:100%;height:480px;}
-#recent-work h2 {color:white;}
+#recent-work {background-color:white;color:black;position:relative;float:left;width:100%;height:auto;}
 #recent-work #video {position:absolute;top:0;left:0;width:100%;height:100%;}
-#recent-work div {position:absolute;width:90%;}
 #recent-work img {float:left;}
 
-#work {background-color:#EFEFEF;padding:2% 0;}
-#work h2 {padding:1% 5%;text-align:center;}
+#work {background-color:#F2F2F2;}
+#work h2 {text-align:center;}
 #work li {display:inline;float:left;width:33.33%;}
 #work li img {width:100%;height:auto;}
-#work li img {display:none}
-#work li img.logo {display:block;}
 
-#work details {padding:2% 8%;float:left;width:100%;}
+#work details {float:left;width:100%;}
 #work summary {text-align:center;}
 #work summary::-webkit-details-marker {display:none;}
 #work summary:after {background:red;border-radius: 5px;content: "+";color: #fff;float: left;font-size: 1.5em;font-weight: bold;margin: -5px 10px 0 0;padding: 0;text-align: center;width: 20px;}
 #work details[open] summary:after {content: "-";}
 #work details li small {display:block;}
 
+#personal {background-color:black;color:white;}
 #personal h2 {color:black;}
 
 /*Bottom*/
@@ -60,41 +62,8 @@ footer a {display:block;color:white;}
 footer nav {font-size:3vw;}
 footer nav a {display:inline;text-decoration:none;}
 
-
-
-
-
-/*background-color:#28231F;*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media only screen and (min-width : 320px) and (max-width : 480px) {
 /* Styles */
 }
 
@@ -109,8 +78,8 @@ footer nav a {display:inline;text-decoration:none;}
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-	#bio p.intro {font-size:32px;line-height:44px;width:80%;font-style:italic;text-align:center;margin:0 auto;}
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+	#bio p.intro {font-size:32px;line-height:44px;width:80%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:80%;margin:0 auto;}
 	.work li {display:block;float:none;width:100%;}
 }
