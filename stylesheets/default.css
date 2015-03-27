@@ -8,8 +8,12 @@ h1 {font-size:5vw;}
 h2 {font-size:48px;text-align:left;border-top:3px solid black;padding-top:1em;margin-bottom:1em;text-transform:uppercase;}
 h3 {font-size:2vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
-button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;}
-a {color:black;}
+button {cursor:pointer;text-transform:uppercase;background-color:white;color:white;font-family:"Fjalla One", sans-serif;font-weight:normal;background-color: #569e3d;
+background-image: -webkit-linear-gradient(#79d858, #569e3d);
+background-image: linear-gradient(#79d858, #569e3d);
+background-repeat: repeat-x;
+border:none;}
+a {color:black;text-decoration:none;}
 a:hover {color:yellow;}
 
 p a:hover {background-color:yellow;color:black;}
@@ -23,8 +27,8 @@ header div.intro {float:left;width:55%;background-color:white;padding:5%;}
 header div.intro h1 {text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border:solid 3px black;border-left:none;border-right:none;}
 header div.intro h1 s {display:none;}
 header div.intro p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:#333;}
-header div.intro p a {color:#333;}
-header div.intro button {width:auto;font-size:2.4vw;border:solid 3px black;padding:2% 10%;margin-top:0.5em;}
+header div.intro p a {font-family:"Fjalla One", sans-serif;text-transform:uppercase;}
+header div.intro button {width:auto;font-size:2.4vw;padding:2% 10%;margin-top:0.5em;}
 header div.intro button:hover {background-color:yellow;color:black;}
 
 /*Sections*/
@@ -53,11 +57,11 @@ section {float:left;width:100%;padding:8% 5%;}
 #work details[open] summary:after {content: "-";}
 #work details li small {display:block;}
 
-#personal {background-color:black;color:white;}
+#personal {background-color:white;}
 #personal h2 {color:black;}
 
 /*Bottom*/
-footer {text-align:center;background-color:#141414;color:white;float:left;width:100%;padding:2vw;}
+footer {text-align:center;background-color:black;color:white;float:left;width:100%;padding:2vw;}
 footer a {display:block;color:white;}
 footer nav {font-size:3vw;}
 footer nav a {display:inline;text-decoration:none;}
