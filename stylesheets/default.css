@@ -1,10 +1,11 @@
 /*Animations*/
-i {
-    -webkit-animation-duration: 5s;
-            animation-duration: 5s;
+i.bounce {
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
 	-webkit-animation-delay: 2s;
 			animation-delay: 2s;
 	-webkit-animation-iteration-count: infinite;
+			animation-iteration-count: infinite;
 }
 
 * {margin:0;padding:0;box-sizing:border-box;}
@@ -17,25 +18,20 @@ h1 {font-size:5vw;}
 h2 {font-size:48px;text-align:left;border-top:3px solid black;padding-top:0.5em;margin-bottom:0.5em;text-transform:uppercase;}
 h3 {font-size:2vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
-button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;
-background-color: #FEE02E;
-background-image: -webkit-linear-gradient(#FEE02E, #ffda00);
-background-image: linear-gradient(#FEE02E, #ffda00);
-background-repeat: repeat-x;
-border:solid 3px #FEE02E;}
+button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;background-color: #FEE02E;background-image: -webkit-linear-gradient(#FEE02E, #ffda00);background-image: linear-gradient(#FEE02E, #ffda00);background-repeat: repeat-x;border:solid 3px #FEE02E;}
 a {color:black;text-decoration:none;}
 a:hover {color:#FEE02E;}
-
 a, a:hover, button, button:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
-
 p a:hover {background-color:#FEE02E;color:black;}
+
+.flexbox {display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;}
 
 /*Top*/
 /*color:#CAC697;*/
-header {background:url(../images/header-bg.png) no-repeat;overflow:hidden;position:relative;}
-header img {width:100%;height:auto;float:left;}
-header div {width:45%;height:auto;float:right;}
-header div.intro {float:left;width:55%;padding:5%;}
+header {background:url(../images/header-bg.png) no-repeat;background-size:cover;overflow:hidden;position:relative;}
+header div {width:45%;height:auto;float:right;flex:1;position:relative;}
+header div img {width:100%;height:auto;position:absolute;bottom:0;}
+header div.intro {float:left;width:55%;padding:5%;background:-moz-linear-gradient(left, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.65)), color-stop(100%,rgba(0,0,0,0)));background: -webkit-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);background: -o-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);background: -ms-linear-gradient(left, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);background: linear-gradient(to right, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );}
 header div.intro h1 {color:white;text-transform:uppercase;text-align:left;width:100%;padding:0.1em 0;border:solid 6px white;border-left:none;border-right:none;}
 header div.intro h1 s {display:none;}
 header div.intro p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;color:white;}
@@ -43,7 +39,7 @@ header div.intro p a {font-family:"Fjalla One", sans-serif;text-transform:upperc
 header div.intro p a:hover {color:black;}
 header div.intro button {width:auto;font-size:2.4vw;padding:2% 10%;margin-top:0.5em;}
 header div.intro button:hover {border-color:black;}
-header div.intro i {float:right;}
+header div.intro i {display:block;}
 
 /*Sections*/
 section {float:left;width:100%;padding:5%;}
@@ -69,7 +65,7 @@ section {float:left;width:100%;padding:5%;}
 #work li img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
 
 #stats {background-color:#FEE02E;}
-#stats li {width:33%;display:inline;float:left;}
+#stats li {width:25%;display:inline;float:left;text-align:center;}
 #stats li big {display:block;font-size:4em;}
 
 #personal {background-color:white;}

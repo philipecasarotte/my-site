@@ -16,14 +16,14 @@
     </head>
     <body>
 		<!-- Of course you gotta check out my semantics! -->
-		<header>
-			<div class="intro">
+		<header class="flexbox">
+			<div class="intro col">
 				<h1>&raquo; Philipe <s>Tauk</s> Casarotte &laquo;</h1>
 				<p>is <a href="http://www.dburnsdesign.com/about-us">DBurns CTO &amp; Product Manager</a>. He has strong experience in web development, client relations and digital strategy. He is a coder.</p>
-				<button>READ FULL BIO</button>
-				<i class="animated infinite bounce">&raquo; meet me in 2 minutes</i>
+				<button rel="#bio">MEET ME</button>
+				<i class="animated infinite bounce">&raquo; in less than 3 minutes</i>
 			</div>
-			<div>
+			<div class="col">
 				<img src="images/philipe-casarotte-fish.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
 			</div>
 		</header>
@@ -41,12 +41,15 @@
 			<!-- <iframe id="video" src="http://player.vimeo.com/video/121649600?autoplay=1&amp;api=1&amp;loop=1&amp;title=0&amp;player_id=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
 			<!-- TO-DO: Shot intagram videos, pull instagram videos by hashtag used form my account, every project will have a series of short videos that will cycle through in the website-->
 			<div>
-				<h2>Currently working on</h2>
-				<figure>
-					<img src="beckmen-vineyards-before-and-after.jpg" alt="Beckmen Vineyards - Before & After Screenshot" width="304" height="228"/>
-					<figcaption>#workingonbeckmen</figcaption>
-				</figure>
-				<h3><a href="http://www,beckmenvineyards.com">Beckmen Vineyards</a></h3>
+				<h2>Currently Working On</h2>				
+				<div ng-app="myInstagramFeed" ng-controller="Hashtag">
+					<figure ng-repeat="p in pics | limitTo:5 | orderBy:orderBy">
+						<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" class="img-responsive thumbnail" title="{{p.caption.text}}" width="224" height="224"/></a>
+						<figcaption><a href="{{p.link}}" target="_blank">{{p.caption.text}}</a></figcaption>
+					</figure>
+				</div>
+
+				<h3><a href="http://www,beckmenvineyards.com">Beckmen Vineyards &raquo; #workingonbeckmen</a></h3>
 				<progress value="60" max="100"></progress>
 				<p>I am currently working on the rebranding and relaunching of Beckmen Vineyards website and wine club. You can follow our work by watching the short clips or using the Instagram hashtag above.</p>
 			</div>
@@ -93,6 +96,12 @@
 					<h5>
 						As PHP Developer
 						<big>100+</big>
+					</h5>
+				</li>
+				<li>
+					<h5>
+						As Project Manager
+						<big>200+</big>
 					</h5>
 				</li>
 				<li>
@@ -179,6 +188,12 @@
 			<a href="mailto:philipe@casarotte.com?Subject=Hey Phil(ipe)!">philipe [at] casarotte [dot] com</a>
 			<address>Santa Monica, CA</address>
 		</footer>
+		
 		<!-- Drummer & Coder, I may miss a comma, but never the beat. -->
+		
+		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.1/angular.min.js" type="text/javascript"></script>
+		 <script src="javascripts/instagram-app.js" type="text/javascript"></script>
+		 <script src="javascripts/default.js" type="text/javascript"></script>
 	</body>
 </html>
