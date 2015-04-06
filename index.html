@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Philipe Casarotte — Creative Full Stack Programmer, Product Manager</title>
+        <title>Philipe Casarotte — Creative Full Stack Programmer, Software Engineer, Product Manager</title>
 		<meta name="description" content="Philipe is DBurns CTO &amp; Product Manager. Strong experience in web development, client relations and digital strategy. He is a coder."/>
 		<meta name="keywords" content="coder, developer, product manager, digital professional, devops"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0"/>
@@ -10,6 +10,7 @@
 		
 		<link rel="icon" type="image/png" href="imgs/favicon.png"/>
 		<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
+		<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300|Roboto:400,300,500italic,400italic,700,700italic,500,300italic|Open+Sans+Condensed:300,700,300italic|Open+Sans:300italic,400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'/>
 		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" type="text/css"//>
 		<link rel="stylesheet" href="stylesheets/animate.css" type="text/css"/>
 		<link rel="stylesheet" href="stylesheets/default.css" type="text/css"/>
@@ -20,8 +21,12 @@
 			<div class="intro col">
 				<h1>&raquo; Philipe <s>Tauk</s> Casarotte &laquo;</h1>
 				<p>is <a href="http://www.dburnsdesign.com/about-us">DBurns CTO &amp; Product Manager</a>. He has strong experience in web development, client relations and digital strategy. He is a coder.</p>
-				<button rel="#bio">MEET ME</button>
-				<i class="animated infinite bounce">&raquo; in less than 3 minutes</i>
+				<button rel="#bio">FULL BIO</button>
+				<a href="#bio" class="animated infinite bounce" rel="#bio">
+					<i class="fa fa-angle-down"></i>
+					meet me in less<br/>
+					than 3 minutes
+				</a>
 			</div>
 			<div class="col">
 				<img src="images/philipe-casarotte-fish.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
@@ -31,7 +36,9 @@
 			<p class="intro"><big><strong>Bio:</strong> As CTO, Product and Project Manager at DBurns, Philipe guides clients in their efforts to create a strategy and roll out plan for their products and services.</big></p>
 			<div>
 				<p>For the last eight plus years at DBurns, Philipe has exercised roles in client relations, project management, front and back end development, UX/UI and digital strategy. Philipe Casarotte has experience leading multi-disciplinary teams and have a diversificate, yet profound technical knowledge which allows him to quickly connect with team members and clients.</p>
-				<p>Previously, Philipe worked as an IT Analyst for <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global japanese trading company and as a Designer then Software Engineer for one of Brazil"s biggets newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a> (a.k.a. Estadão). At Estadão, he helped one of its internal agencies to develop automation software that was sold to renoun Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Getulio Vargas-RJ</a>.</p>
+				<h3>Previous Experiences</h3>
+				<p>Previously, Philipe worked as an IT Analyst for <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global japanese trading company and as a Graphic Designer then Software Engineer for one of Brazil"s biggets newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a> (a.k.a. Estadão). At Estadão, he helped one of its internal agencies to develop automation software that was later sold to renoun Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Getulio Vargas-RJ</a>.</p>
+				<h3>Extras</h3>
 				<p>Philipe has also taught Web Design Courses for 2 universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">SENAC-SP</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">FASM-SP</a>. His work has won recognition from Webby and W3 Awards. He holds a B.A. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">PUC-SP</a>.</p>
 				<!-- Philipe is a creative full stack developer that loves Ruby, Javascript and a semantic-driven HTML. -->
 			</div>
@@ -41,35 +48,37 @@
 			<!-- <iframe id="video" src="http://player.vimeo.com/video/121649600?autoplay=1&amp;api=1&amp;loop=1&amp;title=0&amp;player_id=0" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> -->
 			<!-- TO-DO: Shot intagram videos, pull instagram videos by hashtag used form my account, every project will have a series of short videos that will cycle through in the website-->
 			<div>
-				<h2>Currently Working On</h2>				
-				<div ng-app="myInstagramFeed" ng-controller="Hashtag">
-					<figure ng-repeat="p in pics | limitTo:5 | orderBy:orderBy">
-						<a href="{{p.link}}" target="_blank"><img ng-src="{{p.images.low_resolution.url}}" class="img-responsive thumbnail" title="{{p.caption.text}}" width="224" height="224"/></a>
-						<figcaption><a href="{{p.link}}" target="_blank">{{p.caption.text}}</a></figcaption>
-					</figure>
-				</div>
-
-				<h3><a href="http://www,beckmenvineyards.com">Beckmen Vineyards &raquo; #workingonbeckmen</a></h3>
-				<progress value="60" max="100"></progress>
-				<p>I am currently working on the rebranding and relaunching of Beckmen Vineyards website and wine club. You can follow our work by watching the short clips or using the Instagram hashtag above.</p>
+				<h2>
+					I'm Currently<br/>
+					<a href="https://instagram.com/explore/tags/workingonbeckmen/">#workingonbeckmen</a>
+				</h2>
+				<!--TO-DO add beckmen tree logo -->
+				<p>I am currently working on the rebranding and relaunching of Beckmen Vineyards website and wine club. You can follow our work by clicking on the Instagram hashtag above.</p>
+				<progress value="60" max="100"></progress>				
 			</div>
 		</section>
 		<section id="work">
-			<h2>Some memorable projects</h2>
+			<h2>Some notable projects</h2>
 			<ul>
 				<li class="the-fare-trade">
 					<a href="http://www.thefaretrade.com">
 						<figure>
 							<img src="images/featured-projects/the-fare-trade.jpg" alt="The Fare Trade - Site Screenshot" width="16" height="9"/>
-							<figcaption>The Fare Trade</figcaption>
+							<figcaption>
+								The Fare Trade<br/>
+								Subscription based monthly boxes with curated gourmet ingredients delivered to your door.
+							</figcaption>
 						</figure>
 					</a>
 				</li>
 				<li>
-					<a href="http://www.nixon100.com">
+					<a href="http://www.nixon100.org">
 						<figure>
 							<img src="images/featured-projects/richard-nixon.jpg" alt="Richard Nixon" width="16" height="9"/>
-							<figcaption>Richard Nixon Centennial</figcaption>
+							<figcaption>
+								Richard Nixon Centennial<br/>
+								Digital exposition for exploring the legacy of the patriot, president, and peacemaker Richard Nixon.
+							</figcaption>
 						</figure>
 					</a>
 				</li>
@@ -77,7 +86,10 @@
 					<a href="http://www.zenartsla.com">
 						<figure>
 							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA"/>
-							<figcaption>ZenArts LA</figcaption>
+							<figcaption>
+								ZenArts LA<br/>
+								Elegant and extravagant corporate event entertainment and production company.
+							</figcaption>
 						</figure>
 					</a>
 				</li>
@@ -111,7 +123,6 @@
 					</h5>
 				</li>
 			</ul>
-			<p><blockquote>At the end it is not about the technology, it is about relationships.</blockquote></p>
 		</section>
 		<section id="personal">
 			<h2>Personal &amp; Preferences</h2>

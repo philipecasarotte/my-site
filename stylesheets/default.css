@@ -1,9 +1,9 @@
 /*Animations*/
-i.bounce {
-    -webkit-animation-duration: 1s;
-            animation-duration: 1s;
-	-webkit-animation-delay: 2s;
-			animation-delay: 2s;
+a.bounce {
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+	-webkit-animation-delay: 4s;
+			animation-delay: 4s;
 	-webkit-animation-iteration-count: infinite;
 			animation-iteration-count: infinite;
 }
@@ -15,14 +15,14 @@ body {font-size:100%;border-top:solid 3px black;font-family:Arial, sans-serif;}
 
 h1, h2, h3, h4, h5, h6 {font-weight:400;color:black;margin-bottom:0.5em;font-family:"Fjalla One", sans-serif;}
 h1 {font-size:5vw;}
-h2 {font-size:48px;text-align:left;border-top:3px solid black;padding-top:0.5em;margin-bottom:0.5em;text-transform:uppercase;}
+h2 {font-size:24px;text-align:center;border-top:3px solid black;padding-top:0.5em;margin-bottom:0.5em;text-transform:uppercase;width:60%;margin:0 auto;}
 h3 {font-size:2vw;color:white;}
 p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Times New Roman", Times, serif;}
-button {cursor:pointer;text-transform:uppercase;background-color:white;color:black;font-family:"Fjalla One", sans-serif;font-weight:normal;background-color: #FEE02E;background-image: -webkit-linear-gradient(#FEE02E, #ffda00);background-image: linear-gradient(#FEE02E, #ffda00);background-repeat: repeat-x;border:solid 3px #FEE02E;}
+button {cursor:pointer;text-transform:uppercase;color:white;font-family:"Fjalla One", sans-serif;font-weight:normal;background:transparent;border:solid 3px #FAC200;}
 a {color:black;text-decoration:none;}
-a:hover {color:#FEE02E;}
+a:hover {color:#FAC200;}
 a, a:hover, button, button:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
-p a:hover {background-color:#FEE02E;color:black;}
+p a:hover {background-color:#FAC200;color:black;}
 
 .flexbox {display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;}
 
@@ -38,43 +38,44 @@ header div.intro p {width:100%;font-style:italic;font-size:2.6vw;line-height:3.6
 header div.intro p a {font-family:"Fjalla One", sans-serif;text-transform:uppercase;color:#EFEFEF;}
 header div.intro p a:hover {color:black;}
 header div.intro button {width:auto;font-size:2.4vw;padding:2% 10%;margin-top:0.5em;}
-header div.intro button:hover {border-color:black;}
-header div.intro i {display:block;}
+header div.intro button:hover {border-color:black;color:#FAC200;}
+header div.intro a.animated {float:right;font-size:12px;text-align:center;color:white;}
+header div.intro a i {display:block;font-size:4vw;}
 
 /*Sections*/
 section {float:left;width:100%;padding:5%;}
 
-#bio {background-color:#F2F2F2;padding:8% 5%;}
-#bio p.intro {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;}
-/*#bio p.intro:before {display:block;content:'';background:black;height:3px;margin-top:-64px;margin-bottom:2em;}*/
-#bio p.intro strong {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
+#bio {/*background-color:#F3F2EE;*/padding:8% 5%;}
+#bio p.intro, #recent-work p {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;}
+#bio p.intro strong, #bio p a {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
 #bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;width:60%;margin:0 auto;}
-#bio h2 {color:black;}
-#bio p a {font-family:"Fjalla One", sans-serif;font-size:16px;text-transform:uppercase;}
+#bio h2, #bio h3 {color:black;}
+#bio p a {font-size:16px;}
 
 #recent-work {background:url(../images/desk-angle.jpg) center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;}
 #recent-work h2 {border-color:white;}
+#recent-work h2 a {font-family:Georgia, "Times New Roman", Times, serif;text-transform:lowercase;font-style:italic;background-color:#FAC200;color:black;}
 #recent-work h2, #recent-work h3, #recent-work a {color:white;}
-#recent-work #video {position:absolute;top:0;left:0;width:100%;height:100%;}
-#recent-work img {float:left;}
+#recent-work p {padding:0;border:none;clear:both;line-height:1.2em;}
 
-#work {background-color:#F2F2F2;}
+#work {background-color:#F3F2EE;}
+#work h2 {margin-bottom:2em;}
 #work li {display:inline;float:left;width:30%;background-color:white;}
 #work li:nth-child(2) {margin:0 5%;}
 #work figcaption {padding:1em;}
 #work li img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
 
-#stats {background-color:#FEE02E;}
+#stats {background-color:white;} /*#FEE02E*//*fac200*/
 #stats li {width:25%;display:inline;float:left;text-align:center;}
 #stats li big {display:block;font-size:4em;}
 
-#personal {background-color:white;}
+#personal {background-color:#F3F2EE;}
 #personal h2 {color:black;}
 #personal img {-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);width:10%;height:auto;}
 
 /*Bottom*/
-footer {text-align:center;background-color:black;color:white;float:left;width:100%;padding:2vw;}
-footer a {display:block;color:white;}
+footer {text-align:center;background-color:white;color:black;float:left;width:100%;padding:2vw;}
+footer a {display:block;color:black;}
 footer nav {font-size:3vw;}
 footer nav a {display:inline;text-decoration:none;}
 
