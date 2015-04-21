@@ -1,5 +1,5 @@
-::-moz-selection {color: black;background: #FAC200;}
-::selection {color:black;background: #FAC200;}
+::-moz-selection {color:black;background:#FAC200;}
+::selection {color:black;background:#FAC200;}
 * {margin:0;padding:0;box-sizing:border-box;}
 img {border:none;}
 
@@ -14,7 +14,7 @@ p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Time
 button {cursor:pointer;text-transform:uppercase;color:white;font-family:"Fjalla One", sans-serif;font-weight:normal;background:transparent;border:solid 3px white;}
 a {color:black;text-decoration:none;}
 a:hover {color:#FAC200;}
-a, a:hover, button, button:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+a span, a:hover span, a:hover, button, button:hover, img, img:hover, i, i:hover, #personal li a, #personal li a:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
 p a:hover {background-color:#FAC200;color:black;}
 
 .flexbox {display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;}
@@ -27,14 +27,17 @@ header div.intro {float:left;width:55%;padding:5%;/*background:-moz-linear-gradi
 header div.intro h1 {float:left;text-transform:uppercase;text-align:left;padding:0.1em 0;color:white;border:solid 3px white;border-left:none;border-right:none;position:relative;}
 header div.intro h1 small {font-size:1.4vw;color:white;background-color:#FAC200;position:absolute;bottom:-10%;left:25%;width:50%;text-align:center;}
 header div.intro h1 small a {color:white;}
+header div.intro h1 small a:hover {color:black;}
 header div.intro h1 s {display:none;}
 header div.intro p {float:left;width:100%;font-style:italic;font-size:2.6vw;line-height:3.6vw;}
 header div.intro p a {font-family:"Fjalla One", sans-serif;}
 header div.intro button {width:auto;font-size:2.4vw;padding:2% 10%;margin-top:0.5em;}
 header div.intro button:hover {border-color:black;color:black;}
-header div.intro a.animated {float:right;margin-right:-40px;font-size:12px;text-align:center;}
-header div.intro a i {display:block;font-size:4vw;}
-header div.intro a:hover i {color:white;}
+header div.intro a.animated {float:right;margin-right:-30px;margin-top:50px;font-size:12px;text-align:center;}
+header div.intro a.animated i {display:block;font-size:4vw;}
+header div.intro a.animated:hover i {color:white;}
+header div.intro a.animated span {color:#FAC200;font-size:1.2em;}
+header div.intro a.animated:hover span {color:white;}
 
 /* Sections */
 section {float:left;width:100%;padding:5%;}
@@ -57,9 +60,10 @@ section {float:left;width:100%;padding:5%;}
 #work h2 {margin-bottom:2em;}
 #work li {display:inline;float:left;width:30%;background-color:white;flex:1;}
 #work li:nth-child(2) {margin:0 5%;}
-#work li h4, #work li figcaption {padding:1em;}
+#work li h4, #work li figcaption {padding:1em;padding-bottom:0.4em;}
 #work h4 {padding-bottom:0;}
 #work li img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
+#work li:hover img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;}
 
 #stats {background-color:#FAC200;}
 #stats li {width:25%;display:inline;float:left;text-align:center;}
@@ -67,9 +71,21 @@ section {float:left;width:100%;padding:5%;}
 #stats li big {display:block;font-size:6em;}
 #stats p {margin:2em auto;}
 
-#personal {background-color:#272727;}
-#personal h2 {color:white;border-color:white;}
-#personal img {-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);width:10%;height:auto;}
+#personal {background-color:#272727;padding:0;color:white;}
+#personal h2 {color:white;border-color:white;margin-top:5%;}
+#personal li {display:inline;float:left;width:25%;height:35vh;background-position:center center;background-repeat:no-repeat;background-size:cover;display:table;}
+#personal li a {display:block;float:left;background-color:black;opacity:0.7;width:100%;height:100%;color:#666;text-align:center;vertical-align:center;display:table-cell;}
+#personal li a:hover {background-color:#FAC200;opacity:0.8;}
+#personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;}
+
+#personal li.evernote {background-image:url(../images/softwares-techniques/evernote-cover.png);}
+#personal li.evernote a:hover {background-color:#2DBE60;color:white;}
+#personal li.philz-coffee {background-image:url(../images/softwares-techniques/philz-coffee.png);}
+#personal li.philz-coffee a:hover {background-color:#28231F;color:white;}
+#personal li.pomodoro {background-image:url(../images/softwares-techniques/pomodoro.png);}
+#personal li.pomodoro a:hover {background-color:red;color:white;}
+#personal li.textmate {background-image:url(../images/softwares-techniques/textmate.png);}
+#personal li.textmate a:hover {background-color:pink;color:white;}
 
 /* Bottom */
 footer {text-align:center;background-color:white;color:black;float:left;width:100%;padding:2vw;}
