@@ -20,10 +20,10 @@ p a:hover {background-color:#FAC200;color:black;}
 .flexbox {display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;}
 
 /* Top */
-header {/*background:url(../images/header-bg.png) no-repeat;background-size:cover;*/background-color:#FAC200;overflow:hidden;position:relative;}
+header {background-color:#FAC200;overflow:hidden;position:relative;}
 header div {width:45%;height:auto;float:right;flex:1;position:relative;}
 header div img {width:100%;height:auto;position:absolute;bottom:0;}
-header div.intro {float:left;width:55%;padding:5%;/*background:-moz-linear-gradient(left, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0) 100%);background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,0,0,0.25)), color-stop(100%,rgba(0,0,0,0)));background: -webkit-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%);background: -o-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%);background: -ms-linear-gradient(left, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%);background: linear-gradient(to right, rgba(0,0,0,0.25) 0%,rgba(0,0,0,0) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=1 );*/}
+header div.intro {float:left;width:55%;padding:5%;}
 header div.intro h1 {float:left;text-transform:uppercase;text-align:left;padding:0.1em 0;color:white;border:solid 3px white;border-left:none;border-right:none;position:relative;}
 header div.intro h1 small {font-size:1.4vw;color:white;background-color:#FAC200;position:absolute;bottom:-10%;left:25%;width:50%;text-align:center;}
 header div.intro h1 small a {color:white;}
@@ -40,7 +40,7 @@ header div.intro a.animated span {color:#FAC200;font-size:1.2em;}
 header div.intro a.animated:hover span {color:white;}
 
 /* Sections */
-section {float:left;width:100%;padding:5%;}
+section {float:left;width:100%;padding:5%;overflow:hidden;}
 
 #bio {padding:5%;}
 #bio p.intro, #recent-work p, #stats p {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;max-width:700px;}
@@ -99,9 +99,12 @@ footer nav a {display:inline;text-decoration:none;}
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 320px) and (max-width : 480px) {
 	h2 {font-size:24px;text-align:center;}
-
-	header div {width:100%;height:auto;float:right;text-align:center;}
-	header div.intro {float:left;width:100%;background-color:white;padding:5%;}
+	
+	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
+	
+	header div {width:100%;height:auto;float:left;flex:inherit;position:relative;height:400px;}
+	header div img {width:60%;height:auto;position:absolute;bottom:0;left:20%;}
+	header div.intro {width:100%;float:left;}
 	header div.intro button {width:100%;}
 
 	#bio p.intro {font-size:20px;line-height:32px;width:100%;}
