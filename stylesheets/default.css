@@ -1,6 +1,6 @@
 ::-moz-selection {color:black;background:#FAC200;}
 ::selection {color:black;background:#FAC200;}
-* {margin:0;padding:0;box-sizing:border-box;}
+* {margin:0;padding:0;box-sizing:border-box;-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
 img {border:none;}
 
 body {font-size:100%;font-family:Arial, sans-serif;color:black;}
@@ -14,7 +14,7 @@ p {font-size:18px;margin-bottom:32px;line-height:32px;font-family:Georgia, "Time
 button {cursor:pointer;text-transform:uppercase;color:white;font-family:"Fjalla One", sans-serif;font-weight:normal;background:transparent;border:solid 3px white;}
 a {color:black;text-decoration:none;}
 a:hover {color:#FAC200;}
-a span, a:hover span, a:hover, button, button:hover, img, img:hover, i, i:hover, #personal li a, #personal li a:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}
+/*#personal hr, a span, a:hover span, a:hover, button, button:hover, img, img:hover, i, i:hover, #personal li a, #personal li a:hover {-webkit-transition: all 1s ease-in-out;-moz-transition: all 0.5s ease-in-out;-o-transition: all 0.5s ease-in-out;transition: all 0.5s ease-in-out;}*/
 p a:hover {background-color:#FAC200;color:black;}
 
 .flexbox {display:-webkit-flex;display:-ms-flexbox;display:flex;overflow:hidden;}
@@ -22,7 +22,7 @@ p a:hover {background-color:#FAC200;color:black;}
 /* Top */
 header {background-color:#FAC200;overflow:hidden;position:relative;}
 header div {width:45%;height:auto;float:right;flex:1;position:relative;}
-header div img {width:100%;height:auto;position:absolute;bottom:0;}
+header div img {width:100%;height:auto;position:absolute;}
 header div.intro {float:left;width:55%;padding:5%;}
 header div.intro h1 {float:left;text-transform:uppercase;text-align:left;padding:0.1em 0;color:white;border:solid 3px white;border-left:none;border-right:none;position:relative;}
 header div.intro h1 small {font-size:1.4vw;color:white;background-color:#FAC200;position:absolute;bottom:-10%;left:25%;width:50%;text-align:center;}
@@ -58,12 +58,18 @@ section {float:left;width:100%;padding:5%;overflow:hidden;}
 
 #work {background-color:#F3F2EE;}
 #work h2 {margin-bottom:2em;}
-#work li {display:inline;float:left;width:30%;background-color:white;flex:1;}
+#work li {display:inline;float:left;width:30%;background-color:white;border-top:solid 3px #FAC200;flex:1;margin-bottom:5em;}
 #work li:nth-child(2) {margin:0 5%;}
-#work li h4, #work li figcaption {padding:1em;padding-bottom:0.4em;}
+#work li h4 {padding:1em;padding-bottom:0.4em;}
 #work h4 {padding-bottom:0;}
-#work li img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
-#work li:hover img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;}
+#work li a figure {position:relative;}
+#work li a figure img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);border-bottom:solid 3px black;}
+#work li a figure figcaption {opacity:0;margin-top:-5em;position:absolute;padding:1em;font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;text-align:center;background-color:black;color:white;}
+#work li a:hover {color:white;}
+#work li a:hover figure img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;opacity:0;}
+#work li a figure img.replace {position:absolute;top:0;left:0em;opacity:0;-webkit-filter: blur(3px);filter:blur(3px);}
+#work li a:hover figure img.replace {opacity:1;-webkit-filter:none;filter:none;}
+#work li a:hover figure figcaption {margin-top:-0.1em;opacity:1;}
 
 #stats {background-color:#FAC200;}
 #stats li {width:25%;display:inline;float:left;text-align:center;}
@@ -72,11 +78,13 @@ section {float:left;width:100%;padding:5%;overflow:hidden;}
 #stats p {margin:2em auto;}
 
 #personal {background-color:#272727;padding:0;color:white;}
+#personal hr {width:10%;margin:0.5em auto 2em auto;border:none;border-top:2px solid white;}
 #personal h2 {color:white;border-color:white;margin-top:5%;}
 #personal li {display:table;float:left;width:25%;height:35vh;background-position:center center;background-repeat:no-repeat;background-size:cover;}
 #personal li a {float:left;background-color:black;background-color:rgba(0, 0, 0, 0.7);width:100%;height:100%;color:white;text-align:center;vertical-align:middle;display:table-cell;}
 #personal li a:hover {background-color:#FAC200;opacity:0.8;}
 #personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;}
+#personal li a:hover hr {width:50%;}
 
 #personal li.soccer {background-image:url(../images/softwares-techniques/phil-icon3.svg);}
 #personal li.soccer a:hover {background-color:#2D5BFF;color:white;}
@@ -97,7 +105,7 @@ footer nav a {display:inline;text-decoration:none;}
 
 /* Media Queries */
 /* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	h2 {font-size:24px;text-align:center;}
 	
 	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
@@ -109,6 +117,8 @@ footer nav a {display:inline;text-decoration:none;}
 
 	#bio p.intro {font-size:20px;line-height:32px;width:100%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:100%;margin:0 auto;}
+	
+	#work li {width:100%;margin:0;}
 }
 
 /* Smartphones (landscape) ----------- */
