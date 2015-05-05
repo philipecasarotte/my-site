@@ -73,9 +73,18 @@ section {float:left;width:100%;padding:5%;overflow:hidden;}
 #work li a:hover figure figcaption {margin-top:-0.1em;opacity:1;}
 
 #stats {background-color:#FAC200;}
-#stats li {width:25%;display:inline;float:left;text-align:center;}
-#stats li img {width:30%;height:auto;display:block;margin:0 auto;}
-#stats li big {display:block;font-size:6em;}
+#stats li {width:25%;display:inline;float:left;text-align:center;font-size:1.2em;color:#BE8900;font-family:"Fjalla One", sans-serif;font-weight:normal;}
+#stats li strong {font-weight:normal;color:black;}
+#stats li i {width:50%;height:auto;display:block;margin:0 auto 0.3em auto;font-size:6em;text-align:center;float:left;width:100%;}
+#stats li big {display:block;font-size:6em;color:black;}
+#stats li small {font-size:1em;margin-top:-1em;float:left;width:100%;letter-spacing:0.4em;}
+#stats li:hover {margin-top:-2em;}
+#stats li:hover i {font-size:7em;}
+#stats li:hover i.icon-rubydiamond {color:red;}
+#stats li:hover i.icon-phpoval {color:red;}
+#stats li:hover i.icon-phpoval {color:purple;}
+#stats li:hover i.icon-frontendscreen {color:black;}
+#stats li:hover i.icon-cloudpm {color:blue;}
 #stats p {margin:2em auto;}
 
 #personal {background-color:#272727;padding:0;color:white;}
