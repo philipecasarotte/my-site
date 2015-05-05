@@ -36,8 +36,9 @@ header div.intro button:hover {border-color:black;color:black;}
 header div.intro a.animated {float:right;margin-right:-30px;margin-top:50px;font-size:12px;text-align:center;}
 header div.intro a.animated i {display:block;font-size:4vw;}
 header div.intro a.animated:hover i {color:white;}
-header div.intro a.animated span {color:#FAC200;font-size:1.2em;}
-header div.intro a.animated:hover span {color:white;}
+header div.intro a.animated span {color:#FAC200;font-size:1.2em;font-family:Georgia, "Times New Roman", Times, serif;}
+header div.intro a.animated span strong {display:block;font-size:3em;}
+header div.intro a.animated:hover span, header div.intro a.animated:hover span strong {color:white;}
 
 /* Sections */
 section {float:left;width:100%;padding:5%;overflow:hidden;}
