@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'icomoon';
-	src:url('fonts/icomoon.eot?-2gesv7');
-	src:url('fonts/icomoon.eot?#iefix-2gesv7') format('embedded-opentype'),
-		url('fonts/icomoon.woff?-2gesv7') format('woff'),
-		url('fonts/icomoon.ttf?-2gesv7') format('truetype'),
-		url('fonts/icomoon.svg?-2gesv7#icomoon') format('svg');
+	src:url('fonts/icomoon.eot?pqjki2');
+	src:url('fonts/icomoon.eot?#iefixpqjki2') format('embedded-opentype'),
+		url('fonts/icomoon.woff?pqjki2') format('woff'),
+		url('fonts/icomoon.ttf?pqjki2') format('truetype'),
+		url('fonts/icomoon.svg?pqjki2#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -31,29 +31,8 @@
 	content: "\e601";
 }
 
-.icon-phpoval .path1:before {
+.icon-phpoval:before {
 	content: "\e602";
-	color: rgb(0, 0, 0);
-}
-.icon-phpoval .path2:before {
-	content: "\e604";
-	margin-left: -1.77734375em;
-	color: rgb(255, 255, 255);
-}
-.icon-phpoval .path3:before {
-	content: "\e605";
-	margin-left: -1.77734375em;
-	color: rgb(0, 0, 0);
-}
-.icon-phpoval .path4:before {
-	content: "\e606";
-	margin-left: -1.77734375em;
-	color: rgb(255, 255, 255);
-}
-.icon-phpoval .path5:before {
-	content: "\e607";
-	margin-left: -1.77734375em;
-	color: rgb(0, 0, 0);
 }
 
 .icon-rubydiamond:before {
