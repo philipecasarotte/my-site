@@ -165,54 +165,7 @@ footer nav a {display:inline;text-decoration:none;}
 	#personal li {width:50%;}
 }
 
-/* Smartphones (landscape) ----------- */
-@media only screen and (min-width:321px) and (max-width:760px){
-/*	body {font-size:100%;}
-
-	nav.breadcrumb {right:0.8em;}
-
-	h1 {font-size:40px;}
-	h2 {font-size:20px;text-align:center;width:90%;}
-	h3 {font-size:18px;}
-	#bio p.intro, #recent-work p, #stats p {width:90%;}
-
-	section {padding:10%;}
-
-	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
-
-	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:420px;}
-	header div img {width:100%;height:auto;position:absolute;bottom:-30%;left:2%;}
-	header div.intro {width:100%;float:left;}
-	header div.intro p {font-size:22px;line-height:24px;margin-bottom:0;text-align:center;}
-	header div.intro button {width:100%;font-size:28px;}
-	header div.intro h1 {width:100%;font-size:71px;}
-	header div.intro h1 small {font-size:20px;width:60%;margin-left:-5%;bottom:-15%;}
-	header div.intro a.animated {display:none}
-
-	#bio {padding-top:15%;}
-	#bio p.intro {font-size:20px;line-height:32px;width:90%;}
-	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
-
-	#recent-work p {display:none;}
-	#recent-work img {width:80%;}
-
-	#work li {width:100%;}
-	#work li:nth-child(2){margin-left:0;margin-right:0;}
-
-	#stats h2 {margin-bottom:10%;}
-	#stats p {display:none;}
-	#stats li {width:50%;margin-bottom:3em;font-size:1em;}
-	#stats li i {font-size:4em;}
-	#stats li big {font-size:4em}
-	#stats li small {font-size:1em;}
-	#stats li:hover {margin-top:0;}
-	#stats li:hover i {font-size:4em;color:black;}
-
-	#personal h2 {margin:6% auto 10% auto;}
-	#personal li {width:50%;}*/
-}
-
-/* Smartphones (portrait) ----------- */
+/* Smaller Screens ----------- */
 @media only screen and (max-width:960px){
 	nav.breadcrumb {right:0.8em;}
 	
@@ -251,46 +204,6 @@ footer nav a {display:inline;text-decoration:none;}
 	
 	#personal h2 {margin:6% auto 10% auto;}
 	#personal li {width:50%;}
-}
-
-/* iPads (portrait and landscape) ----------- */
-@media only screen and (min-device-width:768px) and (max-device-width:1024px){
-/* STYLES GO HERE */
-}
-
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:landscape){
-/* STYLES GO HERE */
-}
-
-/* iPads (portrait) ----------- */
-@media only screen and (min-device-width:768px) and (max-device-width:1024px) and (orientation:portrait){
-/* STYLES GO HERE */
-}
-
-/* Desktops and laptops ----------- */
-@media only screen and (min-width:1224px){
-/* STYLES GO HERE */
-}
-
-/* Large screens ----------- */
-@media only screen and (min-width:1824px){
-/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait & landscape)----------- */
-@media only screen and (min-device-width:320px) and (max-device-width:568px){
-/* STYLES GO HERE */
-}
-
-/* iPhone 5 (landscape)----------- */
-@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:landscape){
-/* STYLES GO HERE */
-}
-
-/* iPhone 5 (portrait)----------- */
-@media only screen and (min-device-width:320px) and (max-device-width:568px) and (orientation:portrait){
-/* STYLES GO HERE */
 }
 
 /*Animations*/
