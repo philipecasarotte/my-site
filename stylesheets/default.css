@@ -90,7 +90,7 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 
 #personal {background-color:#272727;padding:5%;color:white;}
 #personal h2 {color:white;border-color:white;margin-bottom:5%;}
-#personal li {display:inline;float:left;width:20%;height:35vh;background-position:center center;background-repeat:no-repeat;background-size:cover;}
+#personal li {display:inline;float:left;width:20%;height:calc(20%);background-position:center center;background-repeat:no-repeat;background-size:cover;}
 #personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:100%;color:white;text-align:center;padding:5%;}
 #personal li:nth-child(even) a {background-color:#666;background-color:rgba(60, 60, 60, 0.7);}
 #personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
@@ -119,6 +119,47 @@ footer nav {font-size:40px;}
 footer nav a {display:inline;text-decoration:none;}
 
 /* Media Queries */
+/* Smaller Screens ----------- */
+@media only screen and (max-width:960px){
+	nav.breadcrumb {right:0.8em;}
+	
+/*	h1 {font-size:40px;}
+	h2 {font-size:20px;text-align:center;width:90%;}
+	h3 {font-size:18px;}
+	#bio p.intro, #recent-work p, #stats p {width:90%;}*/
+	
+	section {padding:10%;}
+	
+	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
+	
+	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:580px;}
+	header div img {width:100%;height:auto;position:absolute;bottom:-30%;left:2%;}
+	header div.intro {width:100% !important;float:left;}
+	header div.intro p {font-size:36px;line-height:38px;margin-bottom:0;text-align:center;}
+	header div.intro button {width:100%;font-size:28px;}
+	header div.intro h1 {font-size:12vw;}
+	header div.intro h1 small {font-size:20px;width:50%;margin-left:0%;bottom:-10%;}
+	header div.intro a.animated {display:none}
+	
+	#bio p.intro {width:90%;}
+	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
+	
+	#work li {width:100%;}
+	#work li:nth-child(2){margin-left:0;margin-right:0;}
+	
+	#stats h2 {margin-bottom:10%;}
+	#stats p {display:none;}
+	#stats li {width:50%;margin-bottom:3em;font-size:1em;}
+	#stats li i {font-size:6em;}
+	#stats li big {font-size:6em}
+	#stats li small {font-size:1em;}
+	#stats li:hover {margin-top:0;}
+	#stats li:hover i {font-size:6em;color:black;}
+	
+	#personal h2 {margin:6% auto 10% auto;}
+	#personal li {width:50%;}
+}
+
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width:320px) and (max-width:480px){
 	body {font-size:80%;}
@@ -160,47 +201,6 @@ footer nav a {display:inline;text-decoration:none;}
 	#stats li small {font-size:1em;}
 	#stats li:hover {margin-top:0;}
 	#stats li:hover i {font-size:4em;color:black;}
-	
-	#personal h2 {margin:6% auto 10% auto;}
-	#personal li {width:50%;}
-}
-
-/* Smaller Screens ----------- */
-@media only screen and (max-width:960px){
-	nav.breadcrumb {right:0.8em;}
-	
-/*	h1 {font-size:40px;}
-	h2 {font-size:20px;text-align:center;width:90%;}
-	h3 {font-size:18px;}
-	#bio p.intro, #recent-work p, #stats p {width:90%;}*/
-	
-	section {padding:10%;}
-	
-	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
-	
-	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:580px;}
-	header div img {width:100%;height:auto;position:absolute;bottom:-30%;left:2%;}
-	header div.intro {width:100% !important;float:left;}
-	header div.intro p {font-size:36px;line-height:38px;margin-bottom:0;text-align:center;}
-	header div.intro button {width:100%;font-size:28px;}
-	header div.intro h1 {font-size:12vw;}
-	header div.intro h1 small {font-size:20px;width:50%;margin-left:0%;bottom:-10%;}
-	header div.intro a.animated {display:none}
-	
-	#bio p.intro {width:90%;}
-	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
-	
-	#work li {width:100%;}
-	#work li:nth-child(2){margin-left:0;margin-right:0;}
-	
-	#stats h2 {margin-bottom:10%;}
-	#stats p {display:none;}
-	#stats li {width:50%;margin-bottom:3em;font-size:1em;}
-	#stats li i {font-size:6em;}
-	#stats li big {font-size:6em}
-	#stats li small {font-size:1em;}
-	#stats li:hover {margin-top:0;}
-	#stats li:hover i {font-size:6em;color:black;}
 	
 	#personal h2 {margin:6% auto 10% auto;}
 	#personal li {width:50%;}
