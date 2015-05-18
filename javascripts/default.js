@@ -11,7 +11,15 @@ $(document).ready(function(){
 	$("nav.breadcrumb a").on("click", function(e){
 		$(".selected").removeClass("selected");
 		$(this).addClass("selected");
-	});	
+	});
+	
+	//Fixing styling for touch devices
+	 $("*").on('touchend', function(){
+		 $(this).css({
+			 backgroundColor: inherit,
+			 color: inherit
+		 });
+	 });
 });
 
 //Scroll Navigation
