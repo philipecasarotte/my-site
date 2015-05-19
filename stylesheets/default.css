@@ -72,11 +72,11 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #work li a figure {position:relative;}
 #work li a figure img {width:100%;height:auto;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);border-bottom:solid 3px black;}
 #work li a figure figcaption {opacity:0;margin-top:-5em;position:absolute;padding:1em;font-family:Georgia, "Times New Roman", Times, serif;font-style:italic;text-align:center;background-color:black;color:white;width:100%;}
-#work li a:hover {color:white;}
-#work li a:hover figure img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;opacity:0;}
+#work li a:hover, #work li a:focus {color:white;}
+#work li a:hover figure img, #work li a:focus figure img {-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;opacity:0;}
 #work li a figure img.replace {position:absolute;top:0;left:0em;opacity:0;-webkit-filter: blur(3px);filter:blur(3px);}
-#work li a:hover figure img.replace {opacity:1;-webkit-filter:none;filter:none;}
-#work li a:hover figure figcaption {margin-top:-0.1em;opacity:1;}
+#work li a:hover figure img.replace, #work li a:focus figure img.replace {opacity:1;-webkit-filter:none;filter:none;}
+#work li a:hover figure figcaption, #work li a:focus figure figcaption {margin-top:-0.1em;opacity:1;}
 
 #stats {background-color:#FAC200;}
 #stats li {width:25%;display:inline;float:left;text-align:center;font-size:1.2em;color:#BE8900;font-family:"Fjalla One", sans-serif;font-weight:normal;}
@@ -96,10 +96,10 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
 #personal li a hr {width:10%;margin:0.5em auto 2em auto;border:none;border-top:2px solid #FAC200;}
 #personal li a small {opacity:0;font-size:1.2em;}
-#personal li a:hover {background-color:black;opacity:0.8;}
-#personal li a:hover strong {margin-top:20%;}
-#personal li a:hover hr {width:50%;}
-#personal li a:hover small {opacity:1;margin:0;}
+#personal li a:hover, #personal li a:focus {background-color:black;opacity:0.8;}
+#personal li a:hover strong, #personal li a:focus strong {margin-top:20%;}
+#personal li a:hover hr, #personal li a:focus hr {width:50%;}
+#personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;}
 
 /* Bottom */
 footer {text-align:center;background-color:white;color:black;float:left;width:100%;padding:3% 5%;}
