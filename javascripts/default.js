@@ -20,6 +20,12 @@ $(document).ready(function(){
 			 color: inherit
 		 });
 	 });
+	 
+	 //Cancel click on Personal Prefenreces
+	 $("#personal a").on("click", function(e){
+		 e.preventDefault();
+		 return false;
+	 })
 });
 
 //Scroll Navigation

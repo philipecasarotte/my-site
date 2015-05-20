@@ -90,18 +90,30 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 
 #personal {background-color:#272727;padding:5%;color:white;}
 #personal h2 {color:white;border-color:white;margin-bottom:5%;}
-#personal li {display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;}
-#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;color:white;text-align:center;padding:5%;display:block;}
+#personal li {display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;overflow:hidden;}
+#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;color:white;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:center center;background-size:1%;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
 #personal li:nth-child(even) a {background-color:#666;background-color:rgba(60, 60, 60, 0.7);}
 #personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
 #personal li a hr {width:10%;margin:0.5em auto 2em auto;border:none;border-top:2px solid #FAC200;}
 #personal li a small {opacity:0;font-size:1.2em;}
 #personal li a small img {display:block;opacity:0;margin:0 aut;}
-#personal li a:hover, #personal li a:focus {background-color:black;opacity:0.8;}
+#personal li a:hover, #personal li a:focus {background-size:100%;-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;}
 #personal li a:hover strong, #personal li a:focus strong {margin-top:20%;}
 #personal li a:hover hr, #personal li a:focus hr {width:50%;}
 #personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;}
 #personal li a:hover small img {opacity:1;}
+
+#personal li.drums a {background-image:url(../images/softwares-techniques/drums.png);}
+#personal li.soccer a {background-image:url(../images/softwares-techniques/soccer.png);}
+#personal li.chocolate a {background-image:url(../images/softwares-techniques/chocolate.png);}
+#personal li.philz-coffee a {background-image:url(../images/softwares-techniques/philz-coffee.png);}
+#personal li.what a {background-image:url(../images/softwares-techniques/axure.png);}
+
+#personal li.evernote a {background-image:url(../images/softwares-techniques/evernote.png);}
+#personal li.pomodoro a {background-image:url(../images/softwares-techniques/pomodoro.png);}
+#personal li.terminal a {background-image:url(../images/softwares-techniques/terminal.png);}
+#personal li.textmate a {background-image:url(../images/softwares-techniques/textmate.png);}
+#personal li.axure a {background-image:url(../images/softwares-techniques/axure.png);}
 
 /* Bottom */
 footer {text-align:center;background-color:white;color:black;float:left;width:100%;padding:3% 5%;}
@@ -200,6 +212,8 @@ footer nav a {display:inline;text-decoration:none;}
 	#personal {padding:5% 10%;}
 	#personal h2 {margin:6% auto 10% auto;}
 	#personal li {width:50%;}
+	#personal li a strong {font-size:1.4em;}
+	#personal li a:hover strong, #personal li a:focus strong {margin-top:10%;}
 }
 
 /*Animations*/
