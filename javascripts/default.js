@@ -32,7 +32,6 @@ $(window).scroll(function(){
 			$("nav a[rel='#"+$(item).attr("id")+"']").addClass("selected");
 			if($(item).attr("id") == "bio" || $(item).attr("id") == "work"){
 				$("nav a").css("border-color", "#CCC");
-				console.log($(item).attr("id"));
 			}else{
 				$("nav a").css("border-color", "white");
 			};
