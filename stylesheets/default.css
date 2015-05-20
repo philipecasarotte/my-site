@@ -107,7 +107,7 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #personal li.soccer a {background-image:url(../images/softwares-techniques/soccer.png);}
 #personal li.chocolate a {background-image:url(../images/softwares-techniques/chocolate.png);}
 #personal li.philz-coffee a {background-image:url(../images/softwares-techniques/philz-coffee.png);}
-#personal li.what a {background-image:url(../images/softwares-techniques/axure.png);}
+#personal li.italy a {background-image:url(../images/softwares-techniques/italy.png);}
 
 #personal li.evernote a {background-image:url(../images/softwares-techniques/evernote.png);}
 #personal li.pomodoro a {background-image:url(../images/softwares-techniques/pomodoro.png);}
@@ -209,7 +209,7 @@ footer nav a {display:inline;text-decoration:none;}
 	#stats li:hover {margin-top:0;}
 	#stats li:hover i {font-size:4em;color:black;}
 	
-	#personal {padding:5% 10%;}
+	#personal {padding:5% 10% 10% 10%;}
 	#personal h2 {margin:6% auto 10% auto;}
 	#personal li {width:50%;}
 	#personal li a strong {font-size:1.4em;}
