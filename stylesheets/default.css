@@ -91,7 +91,7 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #personal {background-color:#272727;padding:5%;color:white;}
 #personal h2 {color:white;border-color:white;margin-bottom:5%;}
 #personal li {display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;overflow:hidden;}
-#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;color:white;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:center center;background-size:1%;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
+#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;color:white;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:center center;background-size:0%;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
 #personal li:nth-child(even) a {background-color:#666;background-color:rgba(60, 60, 60, 0.7);}
 #personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
 #personal li a hr {width:10%;margin:0.5em auto 2em auto;border:none;border-top:2px solid #FAC200;}
@@ -181,7 +181,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:240px;}
 	header div img {width:100%;height:auto;position:absolute;bottom:-60%;left:2%;}
 	header div.intro {width:100%;float:left;}
-	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:left;}
+	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:center;}
 	header div.intro button {width:100%;font-size:28px;}
 	header div.intro h1 small {font-size:13px;width:70%;margin-left:-10%;bottom:-15%;}
 	header div.intro a.animated {display:none}
