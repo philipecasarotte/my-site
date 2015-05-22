@@ -53,7 +53,7 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #bio h3 {border-bottom:1px solid black;-}
 #bio p a {font-size:16px;}
 
-#recent-work {background:url(../images/desk-angle.jpg) fixed center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
+#recent-work {background:url(../images/desk-angle.jpg) center top;background-attachment:fixed;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
 #recent-work h2 {border-color:white;}
 #recent-work h2 a {font-family:Georgia, "Times New Roman", Times, serif;text-transform:lowercase;font-style:italic;background-color:#FAC200;color:black;}
 #recent-work h2 a:hover {color:white;}
@@ -126,11 +126,6 @@ footer nav a {display:inline;text-decoration:none;}
 @media only screen and (max-width:960px){
 	nav.breadcrumb {right:0.8em;}
 	
-/*	h1 {font-size:40px;}
-	h2 {font-size:20px;text-align:center;width:90%;}
-	h3 {font-size:18px;}
-	#bio p.intro, #recent-work p, #stats p {width:90%;}*/
-	
 	section {padding:10%;}
 	
 	header.flexbox {display:-webkit-block;display:-ms-block;display:block;overflow:hidden;}
@@ -147,6 +142,7 @@ footer nav a {display:inline;text-decoration:none;}
 	#bio p.intro {width:90%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
 	
+	#recent-work {background-attachment:scroll;}
 	#recent-work p {width:100%;}
 	#recent-work img {width:40%;}
 	
@@ -185,15 +181,16 @@ footer nav a {display:inline;text-decoration:none;}
 	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:240px;}
 	header div img {width:100%;height:auto;position:absolute;bottom:-60%;left:2%;}
 	header div.intro {width:100%;float:left;}
-	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:center;}
+	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:left;}
 	header div.intro button {width:100%;font-size:28px;}
-	header div.intro h1 small {font-size:14px;width:70%;margin-left:-10%;bottom:-15%;}
+	header div.intro h1 small {font-size:13px;width:70%;margin-left:-10%;bottom:-15%;}
 	header div.intro a.animated {display:none}
 	
 	#bio {padding-top:15%;}
 	#bio p.intro {font-size:20px;line-height:32px;width:90%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
 	
+	#recent-work {background-attachment:scroll;}
 	#recent-work p {display:none;}
 	#recent-work img {width:80%;}
 	
@@ -204,7 +201,7 @@ footer nav a {display:inline;text-decoration:none;}
 	#stats p {display:none;}
 	#stats li {width:50%;margin-bottom:3em;font-size:1em;}
 	#stats li i {font-size:4em;}
-	#stats li big {font-size:4em}
+	#stats li big {font-size:4em;margin-bottom:0.1em;}
 	#stats li small {font-size:1em;}
 	#stats li:hover {margin-top:0;}
 	#stats li:hover i {font-size:4em;color:black;}
