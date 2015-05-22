@@ -22,7 +22,7 @@ $(document).ready(function(){
 	 });
 	 
 	 //Cancel click on Personal Prefenreces
-	 $("#personal a").on("click", function(e){
+	 $("#personal a, #work a").on("click", function(e){
 		 e.preventDefault();
 		 return false;
 	 })
