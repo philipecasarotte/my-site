@@ -91,16 +91,16 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #personal {background-color:#272727;padding:5%;color:white;}
 #personal h2 {color:white;border-color:white;margin-bottom:5%;}
 #personal li {display:inline;float:left;width:20%;height:50%;background-position:center center;background-repeat:no-repeat;background-size:cover;overflow:hidden;}
-#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;color:white;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:center center;background-size:0%;-webkit-filter: grayscale(1); -webkit-filter: grayscale(100%);filter: gray; filter: grayscale(100%);filter: url(desaturate.svg#greyscale);}
+#personal li a {float:left;background-color:#333;background-color:rgba(30, 30, 30, 0.7);width:100%;height:18vw;text-align:center;padding:5%;display:block;background-repeat:no-repeat;background-position:center center;background-size:0%;}
 #personal li:nth-child(even) a {background-color:#666;background-color:rgba(60, 60, 60, 0.7);}
-#personal li a strong {display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
+#personal li a strong {color:white;display:block;font-size:2em;font-family:Georgia, "Times New Roman", Times, serif;font-weight:normal;font-style:italic;margin-top:40%;}
 #personal li a hr {width:10%;margin:0.5em auto 2em auto;border:none;border-top:2px solid #FAC200;}
-#personal li a small {opacity:0;font-size:1.2em;}
-#personal li a small img {display:block;opacity:0;margin:0 aut;}
+#personal li a:hover hr, #personal li a:focus hr {width:50%;border-color:white;}
+#personal li a small {opacity:0;font-size:1.2em;color:white;}
+#personal li a small img {display:block;opacity:0;margin:0 auto;}
 #personal li a:hover, #personal li a:focus {background-size:100%;-webkit-filter:none;-webkit-filter:none;filter:none;filter:none;filter:none;}
-#personal li a:hover strong, #personal li a:focus strong {margin-top:20%;}
-#personal li a:hover hr, #personal li a:focus hr {width:50%;}
-#personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;}
+#personal li a:hover strong, #personal li a:focus strong {margin-top:20%;text-shadow:2px 2px 6px black;}
+#personal li a:hover small, #personal li a:focus small {opacity:1;margin:0;text-shadow:2px 2px 6px black;}
 #personal li a:hover small img {opacity:1;}
 
 #personal li.drums a {background-image:url(../images/softwares-techniques/drums.png);}

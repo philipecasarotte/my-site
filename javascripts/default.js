@@ -22,10 +22,12 @@ $(document).ready(function(){
 	 });
 	 
 	 //Cancel click on Personal Prefenreces
-	 $("#personal a, #work a").on("click", function(e){
-		 e.preventDefault();
-		 return false;
-	 })
+	 if (isTouch){
+		 $("#personal a, #work a").on("click", function(e){
+			 e.preventDefault();
+			 return false;
+		 });
+	 }
 });
 
 //Scroll Navigation
@@ -44,3 +46,8 @@ $(window).scroll(function(){
         };
     });
 });
+
+//Check for Touch Devices
+function isTouch(){
+	return ('ontouchstart' in document.documentElement);
+}
