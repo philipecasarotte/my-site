@@ -23,7 +23,7 @@ $(document).ready(function(){
 	 
 	 //Cancel click on Personal Prefenreces
 	 if (isTouch){
-		 $("#personal a, #work a").on("click", function(e){
+		 $("#personal a").on("click", function(e){
 			 e.preventDefault();
 			 return false;
 		 });
