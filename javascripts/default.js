@@ -21,8 +21,9 @@ $(document).ready(function(){
 		 });
 	 });
 	 
+	 console.log(isTouch());
 	 //Cancel click on Personal Prefenreces
-	 if (isTouch){
+	 if (isTouch()){
 		 $("#personal a").on("click", function(e){
 			 e.preventDefault();
 			 return false;
@@ -49,5 +50,5 @@ $(window).scroll(function(){
 
 //Check for Touch Devices
 function isTouch(){
-	return ('ontouchstart' in document.documentElement);
+	return window.ontouchstart !== undefined;
 }
