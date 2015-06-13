@@ -222,7 +222,8 @@ footer nav a {display:inline;text-decoration:none;}
 	#personal li {width:50%;}
 	#personal li a strong {font-size:1.4em;}
 	#personal li a:hover strong, #personal li a:focus strong {margin-top:25%;}
-}
+	
+	footer a.phone {width:100%;font-size:28px;border:solid 3px black;margin:0.5em 0;padding: 2% 10%;font-family: "Fjalla One", sans-serif;font-weight: normal;}}
 
 /*Animations*/
 a.bounce {
