@@ -21,7 +21,6 @@ $(document).ready(function(){
 		 });
 	 });
 	 
-	 console.log(isTouch());
 	 //Cancel click on Personal Prefenreces
 	 if (isTouch()){
 		 $("#personal a").on("click", function(e){
