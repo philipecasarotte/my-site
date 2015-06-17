@@ -26,7 +26,7 @@
 					Philipe <s>Tauk</s> Casarotte
 					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
 				</h1>
-				<p>I have experience in web development, client relations and digital strategy. <strong>I'm a programmer.</strong></p>
+				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
 				<!-- <p>An experienced technology professional and programmer, focused on custom web development. Savvy in all aspects of agency business, including digital marketing and account management.</p> -->
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
