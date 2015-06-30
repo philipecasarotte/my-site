@@ -3,8 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Creative Full Stack Programmer, Product Manager</title>
-		<meta name="description" content="Philipe is DBurns CTO &amp; Product Manager. He has experience in web development, client relations and digital strategy. He is a programmer."/>
-		<meta name="keywords" content="programmer, developer, product manager, digital professional, ruby, front-end"/>
+		<meta name="description" content="Philipe Casarotte is DBurns CTO &amp; Product Manager. He has experience in web development, client relations and digital strategy. He is a programmer."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -23,7 +22,7 @@
 		<header id="intro" class="flexbox">
 			<div class="intro col">
 				<h1>
-					Philipe <s>Tauk</s> Casarotte
+					Philipe Casarotte
 					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
 				</h1>
 				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
