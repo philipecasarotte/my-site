@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Philipe Casarotte — Creative Full Stack Programmer, Product Manager</title>
+        <title>Philipe Casarotte — Creative Full Stack Programmer</title>
 		<meta name="description" content="Philipe Casarotte is DBurns CTO &amp; Product Manager. He has experience in web development, client relations and digital strategy. He is a programmer."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
@@ -12,13 +12,10 @@
 		
 		<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-		<!-- <link href="stylesheets/animate.css" rel="stylesheet" type="text/css"/>
-		<link href="stylesheets/default.css" rel="stylesheet" type="text/css"/>
-		<link href="stylesheets/icons.css" rel="stylesheet" type="text/css"/> -->
 		<link type="text/css" rel="stylesheet" href="/min/b=stylesheets&amp;f=animate.css,default.css,icons.css" />
     </head>
     <body>
-		<!-- Of course you gotta check out my semantics! -->
+		<!-- Of course you gotta check my semantics! -->
 		<header id="intro" class="flexbox">
 			<div class="intro col">
 				<h1>
@@ -26,7 +23,6 @@
 					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
 				</h1>
 				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
-				<!-- <p>An experienced technology professional and programmer, focused on custom web development. Savvy in all aspects of agency business, including digital marketing and account management.</p> -->
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
@@ -49,8 +45,6 @@
 		</section>
 		<section id="recent-work">
 			<!-- TO-DO: Shut Photo in eagle angle, showing me typing away and doing some work, add full background cover so it fits the width/height of the parent div -->
-			<!-- TO-DO: Shut photos for each step of the project -->
-			<!-- TO-DO: Post Tweeter Images showing process -->
 			<div>	
 				<h2>
 					I'm Currently<br/>
@@ -230,7 +224,6 @@
 		<!-- Drummer & Coder, I may miss a comma, but never the beat. -->
 		 
 		 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-		 <!--<script src="javascripts/default.js" type="text/javascript"></script>-->
 		 <script type="text/javascript" src="/min/f=javascripts/default.js"></script>
 		 
 		 <script type="text/javascript">
