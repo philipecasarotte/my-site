@@ -235,7 +235,6 @@
 			ga('create', 'UA-63270429-2', 'auto');
 			ga('send', 'pageview');
 			ga('require', 'displayfeatures');
-			ga('set', '&uid', {{USER_ID}});
 		</script>
 	</body>
 </html>
