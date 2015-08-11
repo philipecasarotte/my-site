@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Creative Full Stack Programmer</title>
-		<meta name="description" content="Philipe Casarotte is DBurns CTO &amp; Product Manager. He has experience in web development, client relations and digital strategy. He is a programmer."/>
+		<meta name="description" content="Philipe Casarotte is DBurns CTO & Product Manager. He is a programmer with experience in web development, client management and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -20,7 +20,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
+					<small>Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
 				</h1>
 				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
@@ -30,11 +30,11 @@
 				</a>
 			</div>
 			<div class="col">
-				<img src="images/philipe-casarotte-smile.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
+				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
 			</div>
 		</header>
 		<section id="bio">
-			<p class="intro"><big><strong>Bio:</strong> I guide clients in all aspects of their web development project, from the initial strategy and scope to the project management. I strategize end-to-end launch plans for my clients’ products and services.</big></p>
+			<p class="intro"><big><strong>Bio:</strong> I guide clients in all aspects of their web development project, from the initial strategy and scope to the project management. I strategize end-to-end launch plans for my clients' products and services.</big></p>
 			<div>
 				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy leading teams and collaborating with people from all disciplines to make intensely creative websites. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
 				<h3>Previous Experiences</h3>
@@ -44,7 +44,6 @@
 			</div>
 		</section>
 		<section id="recent-work">
-			<!-- TO-DO: Shut Photo in eagle angle, showing me typing away and doing some work, add full background cover so it fits the width/height of the parent div -->
 			<div>	
 				<h2>
 					I'm Currently<br/>
@@ -98,7 +97,7 @@
 		</section>
 		<section id="stats">
 			<h2>Experience by the Number</h2>
-			<p>I've been involved in more than 450 projects in various roles. Here's a few fun stats on my roles in these projects throughout the years.</p>
+			<p>I've been involved in more than 450 projects in various roles. Here's a few stats on my roles in these projects throughout the years.</p>
 			<ul>
 				<li>
 					<i class="icon-rubydiamond"></i>
