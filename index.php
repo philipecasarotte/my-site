@@ -8,7 +8,8 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
 		
-		<link href="imgs/favicon.png" rel="icon" type="image/png" />
+		<link rel="apple-touch-icon" href="images/favicon.png"/>
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 		
 		<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
@@ -20,7 +21,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a>.</small>
+					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a></small>
 				</h1>
 				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
@@ -34,9 +35,9 @@
 			</div>
 		</header>
 		<section id="bio">
-			<p class="intro"><big><strong>Bio:</strong> I guide clients in all aspects of their web development project, from the initial strategy and scope to the project management. I strategize end-to-end launch plans for my clients' products and services.</big></p>
+			<p class="intro"><big><strong>Bio:</strong><!--I guide clients in all aspects of their web development project from the initial strategy and scope to the project management.-->I strategize end-to-end launch plans for my clients' products and services.</big></p>
 			<div>
-				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy leading teams and collaborating with people from all disciplines to make intensely creative websites. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
+				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy leading teams and collaborating with people from all disciplines to make creative websites. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
 				<h3>Previous Experiences</h3>
 				<p>I've previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão”. There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
 				<h3>Education and Awards</h3>
@@ -61,7 +62,7 @@
 						<h4>ZenArts LA <small>Award Winner</small></h4>
 						<figure>
 							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA" width="16" height="9"/>
-							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>							
+							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
 								Extravagant corporate event entertainment and production company.
 							</figcaption>
@@ -86,7 +87,7 @@
 						<h4>Richard Nixon Centennial</h4>
 						<figure>
 							<img src="images/featured-projects/richard-nixon.jpg" alt="Richard Nixon" width="16" height="9"/>
-							<img src="images/featured-projects/richard-nixon-logo.jpg" alt="Richard Nixon - Logo" width="16" height="9" class="replace"/>							
+							<img src="images/featured-projects/richard-nixon-logo.jpg" alt="Richard Nixon - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
 								Digital exposition for exploring the legacy of the president Richard Nixon.
 							</figcaption>
@@ -179,9 +180,9 @@
 				</li>
 				<li class="terminal">
 					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
-						<strong>Terminal</strong>
+						<strong>Command Line</strong>
 						<hr/>
-						<small>Agility and hacker feelings.</small>
+						<small>The best of friends.</small>
 					</a>
 				</li>
 				<li class="textmate">
@@ -217,10 +218,10 @@
 			<a href="#recent-work" rel="#recent-work"><span>Working On</span></a>
 			<a href="#work" rel="#work"><span>Selected Projects</span></a>
 			<a href="#stats" rel="#stats"><span>Experience</span></a>
-			<a href="#personal" rel="#personal"><span>Preferences</span></a>			
+			<a href="#personal" rel="#personal"><span>Preferences</span></a>
 		</nav>
 		
-		<!-- Drummer & Coder, I may miss a comma, but never the beat. -->
+		<!-- Coder & Drummer: I may miss a comma, never the beat. -->
 		 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
