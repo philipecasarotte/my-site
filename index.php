@@ -131,21 +131,21 @@
 			<h2>Personal Favorites</h2>
 			<ul>
 				<li class="drums">
-					<a href="http://www.youtube.com/phisoccer">
+					<a href="https://en.wikipedia.org/wiki/Drum_kit">
 						<strong>Drums</strong>
 						<hr/>
 						<small>Air + actual drummer.</small> 
 					</a>
 				</li>
 				<li class="soccer">
-					<a href="http://www.cbf.com.br">
+					<a href="https://en.wikipedia.org/wiki/Football">
 						<strong>Football</strong>
 						<hr/>
 						<small>I love and play soccer.</small>
 					</a>
 				</li>
 				<li class="chocolate">
-					<a href="http://www.lindtusa.com">
+					<a href="https://en.wikipedia.org/wiki/Chocolate">
 						<strong>Chocolate</strong>
 						<hr/>
 						<small>Enough said.</small>
