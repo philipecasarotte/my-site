@@ -30,6 +30,12 @@ $(document).ready(function(){
 	 }
 });
 
+$(window).load(function(){
+	$(".loader, .loader-canvas").fadeOut(1000, function(){
+		this.remove();
+	});
+});
+
 //Scroll Navigation
 $(window).scroll(function(){
 	var winTop = $(this).scrollTop()+300;

@@ -16,6 +16,7 @@
 		<link type="text/css" rel="stylesheet" href="/min/b=stylesheets&amp;f=animate.css,default.css,icons.css" />
     </head>
     <body>
+		<div class="loader-canvas"><img src="/images/loader.png" alt="Loader" title="Loader" class="loader"/></div>
 		<!-- Of course you gotta check my semantics! -->
 		<header id="intro" class="flexbox">
 			<div class="intro col">
@@ -35,7 +36,7 @@
 			</div>
 		</header>
 		<section id="bio">
-			<p class="intro"><big><strong>Bio:</strong><!--I guide clients in all aspects of their web development project from the initial strategy and scope to the project management.-->I strategize end-to-end launch plans for my clients' products and services.</big></p>
+			<p class="intro"><big><strong>Bio: </strong>I guide clients in all aspects of their web development project from the initial strategy and scope to the project management. I strategize end-to-end launch plans for my clients' products and services.</big></p>
 			<div>
 				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy leading teams and collaborating with people from all disciplines to make creative websites. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
 				<h3>Previous Experiences</h3>
@@ -161,7 +162,7 @@
 					<a href="https://www.google.com/maps/place/1431+7th+St,+Santa+Monica,+CA+90401/@34.0182075,-118.4912457,2487m/data=!3m1!1e3!4m2!3m1!1s0x80c2a4cdcf3ba38b:0x449304f6160de955">
 						<strong>Maps</strong>
 						<hr/>
-						<small>They always fascinate me.</small>
+						<small>They fascinate me.</small>
 					</a>
 				</li>
 				<li class="evernote">
@@ -180,16 +181,16 @@
 				</li>
 				<li class="terminal">
 					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
-						<strong>Command Line</strong>
+						<strong>Terminal</strong>
 						<hr/>
-						<small>The best of friends.</small>
+						<small>/:~ $ git pull .</small>
 					</a>
 				</li>
 				<li class="textmate">
 					<a href="http://www.textmate.com">
 						<strong>Textmate</strong>
 						<hr/>
-						<small>Prefered text editor.</small>
+						<small>Best of friends TE.</small>
 					</a>
 				</li>
 				<li class="axure">
@@ -222,7 +223,7 @@
 		</nav>
 		
 		<!-- Coder & Drummer: I may miss a comma, never the beat. -->
-		 
+		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
 		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
 			
