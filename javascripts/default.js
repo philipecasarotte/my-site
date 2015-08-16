@@ -31,7 +31,7 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
-	$(".loader-canvas").animate({top: "-100%", opacity:0}, 1000);
+	$(".loader-canvas").animate({top: "-100%", opacity:0}, 500);
 });
 
 //Scroll Navigation
