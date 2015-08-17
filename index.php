@@ -7,13 +7,14 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
+		<meta property=”og:image” content="images/philipe-casarotte-website.png"/>
 		
 		<link rel="apple-touch-icon" href="images/favicon.png"/>
 		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico"/>
 		
 		<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-		<link type="text/css" rel="stylesheet" href="/min/b=stylesheets&amp;f=animate.css,default.css,icons.css" />
+		<link type="text/css" rel="stylesheet" href="/min/b=stylesheets&amp;f=animate.css,default.css,icons.css"/>
     </head>
     <body>
 		<div class="loader-canvas"><img src="/images/loader.png" alt="Loader" title="Loader" class="loader"/></div>

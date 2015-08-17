@@ -31,7 +31,9 @@ $(document).ready(function(){
 });
 
 $(window).load(function(){
-	$(".loader-canvas").animate({top: "-100%", opacity:0}, 500);
+	$(".loader-canvas").animate({top: "-100%", opacity:0}, 500, function(){
+		$(".loader-canvas, .loader").remove();
+	});
 });
 
 //Scroll Navigation
