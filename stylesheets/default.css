@@ -56,7 +56,7 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #bio h3 {border-bottom:1px solid black;}
 #bio p a {font-size:16px;}
 
-#recent-work {background:url(../images/desk-angle.jpg) center top;background-attachment:fixed;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
+#recent-work {background:url(../images/desk-angle.jpg) center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
 #recent-work h2 {border-color:white;}
 #recent-work h2 a {font-family:Georgia, "Times New Roman", Times, serif;text-transform:lowercase;font-style:italic;background-color:#FAC200;color:black;}
 #recent-work h2 a:hover {color:white;}
