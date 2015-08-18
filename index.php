@@ -206,7 +206,7 @@
 		<footer>
 			<nav>
 				<a href="https://www.linkedin.com/in/philipecasarotte" class="fa fa-linkedin"></a>
-				<a href="https://twitter.com/philipetauk" class="fa fa-twitter"></a>
+				<a href="https://twitter.com/pcasarotte" class="fa fa-twitter"></a>
 				<a href="https://github.com/philipecasarotte/" class="fa fa-github"></a>
 			</nav>
 			<a href="tel:13106171037" class="phone">+1 (310) 617.1037</a>
