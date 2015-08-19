@@ -225,9 +225,6 @@
 		
 		<!-- Coder & Drummer: I may miss a comma, never the beat. -->
 		
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
-		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
-			
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -238,5 +235,8 @@
 			ga('send', 'pageview');
 			ga('require', 'displayfeatures');
 		</script>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
 	</body>
 </html>

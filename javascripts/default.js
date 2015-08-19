@@ -28,6 +28,19 @@ $(document).ready(function(){
 			 return false;
 		 });
 	 }
+	 
+	 // Tracking GA Goals
+	 $("footer > a:last").on("click", function() {
+	   ga("send", "event", "links", "click", "email");
+	 });
+	 
+	 $("footer > a:first").on("click", function() {
+	   ga("send", "event", "links", "click", "phone");
+	 });
+	 
+	 $("footer nav a").on("click", function() {
+	   ga("send", "event", "links", "click", "social");
+	 });
 });
 
 $(window).load(function(){
