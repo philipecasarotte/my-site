@@ -188,7 +188,7 @@
 					</a>
 				</li>
 				<li class="textmate">
-					<a href="http://www.textmate.com">
+					<a href="https://macromates.com">
 						<strong>Textmate</strong>
 						<hr/>
 						<small>Best of friends TE.</small>
