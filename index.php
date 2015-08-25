@@ -50,10 +50,10 @@
 			<div>	
 				<h2>
 					I'm Currently<br/>
-					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">#workingonbeckmen</a>
+					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">#workingonalteragents</a>
 				</h2>
-				<a href="http://www.beckmenvineyards.com"><img src="images/logos/beckmen-vineyards-logo.png" width="94" height="78" alt="Beckmen Vineyards"/></a>
-				<p>A complete rebranding of Beckmen Vineyards' website and wine club.</p>
+				<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets"><img src="images/logos/alter-agents-logo.png" width="94" height="78" alt="Alter Agents"/></a>
+				<p>"Shoppers see brands in a 360 view – they don’t discriminate by marketing vs. product design vs. distribution."</p>
 			</div>
 		</section>
 		<section id="work">
@@ -72,13 +72,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="http://www.thefaretrade.com">
-						<h4>The Fare Trade</h4>
+					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">
+						<h4>Beckmen Vineyards <small>#workingonbeckmen</small></h4>
 						<figure>
-							<img src="images/featured-projects/the-fare-trade.jpg" alt="The Fare Trade" width="16" height="9"/>
-							<img src="images/featured-projects/the-fare-trade-logo.jpg" alt="The Fare Trade - Logo" width="16" height="9" class="replace"/>
+							<img src="images/featured-projects/beckmen-vineyards.jpg" alt="Beckmen Vineyards" width="16" height="9"/>
+							<img src="images/featured-projects/beckmen-vineyards-logo.jpg" alt="Beckmen Vineyards - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
-								Subscription based monthly gourmet ingredients box delivered to your door.
+								A complete rebranding of Beckmen Vineyards' website and wine club.
 							</figcaption>
 						</figure>
 						
