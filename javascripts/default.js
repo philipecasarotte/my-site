@@ -32,31 +32,28 @@ $(document).ready(function(){
 	 // Tracking GA Goals
 	 $("footer > a:last").on("click", function(e){
 		e.preventDefault();
-		ga("send", "event", "links", "click", "email", {"hitCallback":
-		 	function(){
-				document.location = this.attr("href");
-			};
-		});
+		var url = $(this).attr("href");
+		ga("send", "event", "links", "click", "email", {"hitCallback": function(){
+			document.location = url;
+		}});
 		return false;
 	 });		
 	 
 	 $("footer > a:first").on("click", function(e){
-		 e.preventDefault();
-		 ga("send", "event", "links", "click", "phone", {"hitCallback":
-		 	function(){
-				document.location = this.attr("href");
-			};
-		});
+		e.preventDefault();
+		var url = $(this).attr("href");		
+		ga("send", "event", "links", "click", "phone", {"hitCallback": function(){
+			document.location = url;
+		}});
 		return false;
 	 });
-	 
+	 //
 	 $("footer nav a").on("click", function(e){
-		 e.preventDefault();
-		 ga("send", "event", "links", "click", "social", {"hitCallback":
-		 	function(){
-				document.location = this.attr("href");
-			};
-		});
+		e.preventDefault();
+		var url = $(this).attr("href");		
+		ga("send", "event", "links", "click", "social", {"hitCallback": function(){
+			document.location = url;
+		}});
 		return false;
 	 });
 });
