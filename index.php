@@ -2,8 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Philipe Casarotte — Creative Full Stack Programmer</title>
-		<meta name="description" content="Philipe Casarotte is DBurns CTO & Product Manager. He is a programmer with experience in web development, client management and digital strategy."/>
+        <title>Philipe Casarotte — Creative Full Stack Developer</title>
+		<meta name="description" content="Philipe Casarotte is DBurns CTO & Product Manager. He is a developer with experience in web development, client management and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -25,7 +25,7 @@
 					Philipe Casarotte
 					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a></small>
 				</h1>
-				<p>I'm a programmer with experience in web development, client management and digital strategy.</p>
+				<p>I'm a developer with experience in web development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
@@ -210,7 +210,7 @@
 				<a href="https://github.com/philipecasarotte/" class="fa fa-github"></a>
 			</nav>
 			<a href="tel:13106171037" class="phone">+1 (310) 617.1037</a>
-			<a href="mailto:philipe@casarotte.com?Subject=Hey Phil!(ipe)">philipe [at] casarotte [dot] com</a>
+			<a href="mailto:philipe@casarotte.com?Subject=Hi Philipe">philipe [at] casarotte [dot] com</a>
 			<address>Santa Monica, CA</address>
 		</footer>
 		
@@ -232,8 +232,8 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
 			ga('create', 'UA-63270429-2', 'auto');
-			ga('send', 'pageview');
 			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
 		</script>
 
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
