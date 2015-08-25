@@ -27,7 +27,7 @@ $(document).ready(function(){
 			 e.preventDefault();
 			 return false;
 		 });
-	 }
+	 };
 	 
 	 // Tracking GA Goals
 	 $("footer > a:last").on("click", function(e){
@@ -35,7 +35,7 @@ $(document).ready(function(){
 		ga("send", "event", "links", "click", "email", {"hitCallback":
 		 	function(){
 				document.location = this.attr("href");
-			});
+			};
 		});
 		return false;
 	 });		
@@ -45,7 +45,7 @@ $(document).ready(function(){
 		 ga("send", "event", "links", "click", "phone", {"hitCallback":
 		 	function(){
 				document.location = this.attr("href");
-			});
+			};
 		});
 		return false;
 	 });
@@ -55,7 +55,7 @@ $(document).ready(function(){
 		 ga("send", "event", "links", "click", "social", {"hitCallback":
 		 	function(){
 				document.location = this.attr("href");
-			});
+			};
 		});
 		return false;
 	 });
