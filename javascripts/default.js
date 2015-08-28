@@ -33,7 +33,7 @@ $(document).ready(function(){
 	 $("footer > a:last").on("click", function(e){
 		e.preventDefault();
 		var url = $(this).attr("href");
-		ga("send", "event", "links", "click", "email", {"hitCallback": function(){
+		ga("send", "event", "links", "click", "email", 1, {"hitCallback": function(){
 			document.location = url;
 		}});
 		return false;
@@ -42,7 +42,7 @@ $(document).ready(function(){
 	 $("footer > a:first").on("click", function(e){
 		e.preventDefault();
 		var url = $(this).attr("href");		
-		ga("send", "event", "links", "click", "phone", {"hitCallback": function(){
+		ga("send", "event", "links", "click", "phone", 1, {"hitCallback": function(){
 			document.location = url;
 		}});
 		return false;
@@ -51,7 +51,7 @@ $(document).ready(function(){
 	 $("footer nav a").on("click", function(e){
 		e.preventDefault();
 		var url = $(this).attr("href");		
-		ga("send", "event", "links", "click", "social", {"hitCallback": function(){
+		ga("send", "event", "links", "click", "social", 1, {"hitCallback": function(){
 			document.location = url;
 		}});
 		return false;
