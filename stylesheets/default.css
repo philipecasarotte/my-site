@@ -142,7 +142,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div.intro p strong {display:block;}
 	header div.intro button {width:100%;font-size:28px;}
 	header div.intro h1 {font-size:12vw;}
-	header div.intro h1 small {font-size:18px;width:50%;margin-left:0%;bottom:-10%;}
+	header div.intro h1 small {font-size:18px;width:60%;margin-left:0%;bottom:-10%;}
 	header div.intro a.animated {display:none}
 	
 	#bio p.intro {width:90%;}
@@ -211,7 +211,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div.intro {width:100%;float:left;}
 	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:center;padding:0;}
 	header div.intro button {width:90%;font-size:28px;margin-left:5%;}
-	header div.intro h1 small {font-size:12px;width:70%;margin-left:-10%;bottom:-15%;}
+	header div.intro h1 small {font-size:12px;width:80%;margin-left:-10%;bottom:-15%;}
 	header div.intro a.animated {display:none}
 	
 	#bio {padding-top:15%;}
@@ -249,7 +249,7 @@ footer nav a {display:inline;text-decoration:none;}
 }
 
 @media only screen and (max-width:568px) and (max-height:320px) and (orientation:landscape){
-	header div.intro h1 small {font-size:16px;width:60%;margin-left:-5%;bottom:-15%;}
+	header div.intro h1 small {font-size:16px;width:70%;margin-left:-10%;bottom:-15%;}
 }
 
 @media only screen and (min-width:375px) and (max-width:667px){	
