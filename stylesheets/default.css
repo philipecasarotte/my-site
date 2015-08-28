@@ -32,7 +32,7 @@ header div {width:45%;height:auto;float:right;flex:1;position:relative;}
 header div img {width:auto;height:100%;position:absolute;bottom:0;}
 header div.intro {float:left;width:55%;padding:5%;}
 header div.intro h1 {float:left;text-transform:uppercase;text-align:center;padding:0.1em 0;color:white;border:solid 3px white;border-left:none;border-right:none;position:relative;width:100%;}
-header div.intro h1 small {font-size:1.4vw;color:white;background-color:#FAC200;position:absolute;bottom:-10%;left:25%;width:50%;text-align:center;}
+header div.intro h1 small {font-size:1.4vw;color:white;background-color:#FAC200;position:absolute;bottom:-10%;left:20%;width:60%;text-align:center;}
 header div.intro h1 small a {color:white;}
 header div.intro h1 small a:hover {color:black;}
 header div.intro h1 s {display:none;}
