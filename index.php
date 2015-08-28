@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Creative Full Stack Developer</title>
-		<meta name="description" content="Philipe Casarotte is DBurns CTO & Product Manager. He is a developer with experience in web development, client management and digital strategy."/>
+		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in web development, client management and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -23,7 +23,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a></small>
+					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#meet-the-team">DBurns</a></small>
 				</h1>
 				<p>I'm a developer with experience in web development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
