@@ -23,7 +23,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>CTO &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a></small>
+					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us#our-team">DBurns</a></small>
 				</h1>
 				<p>I'm a developer with experience in web development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
@@ -73,7 +73,7 @@
 				</li>
 				<li>
 					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">
-						<h4>Beckmen Vineyards <small>#workingonbeckmen</small></h4>
+						<h4>Beckmen Vineyards <small>#beckmen</small></h4>
 						<figure>
 							<img src="images/featured-projects/beckmen-vineyards.jpg" alt="Beckmen Vineyards" width="16" height="9"/>
 							<img src="images/featured-projects/beckmen-vineyards-logo.jpg" alt="Beckmen Vineyards - Logo" width="16" height="9" class="replace"/>
