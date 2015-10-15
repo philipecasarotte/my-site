@@ -53,7 +53,7 @@
 					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">#workingonalteragents</a>
 				</h2>
 				<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets"><img src="images/logos/alter-agents-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>"Shoppers see brands in a 360 view – they don’t discriminate by marketing vs. product design vs. distribution."</p>
+				<p>Launching new brand and website for Alter Agents - A market research company.</p>
 			</div>
 		</section>
 		<section id="work">
