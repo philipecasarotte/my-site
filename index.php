@@ -61,7 +61,7 @@
 			<ul>
 				<li>
 					<a href="http://www.zenartsla.com">
-						<h4>ZenArts LA <small>#awardwinner</small></h4>
+						<h4>ZenArts LA <small>#6awards</small></h4>
 						<figure>
 							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA" width="16" height="9"/>
 							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>
@@ -73,7 +73,7 @@
 				</li>
 				<li>
 					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">
-						<h4>Beckmen Vineyards <small>#awardwinner</small></h4>
+						<h4>Beckmen Vineyards <small>#3awards</small></h4>
 						<figure>
 							<img src="images/featured-projects/beckmen-vineyards.jpg" alt="Beckmen Vineyards" width="16" height="9"/>
 							<img src="images/featured-projects/beckmen-vineyards-logo.jpg" alt="Beckmen Vineyards - Logo" width="16" height="9" class="replace"/>
@@ -104,19 +104,19 @@
 			<ul>
 				<li>
 					<i class="icon-rubydiamond"></i>
-					As <strong>Rails Back-end Engineer</strong>
+					As <strong>Rails Back-end Developer</strong>
 					<big>30+</big>
 					<small>projects</small>
 				</li>
 				<li>
 					<i class="icon-phpoval"></i>
-					As <strong>PHP Back-end Engineer</strong>
+					As <strong>PHP Back-end Developer</strong>
 					<big>80+</big>
 					<small>projects</small>
 				</li>
 				<li>
 					<i class="icon-frontendscreen"></i>
-					As <strong>Front-End Engineer</strong>
+					As <strong>Front-End Developer</strong>
 					<big>150+</big>
 					<small>projects</small>
 				</li>
