@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <title>Philipe Casarotte — Creative Full Stack Developer</title>
+        <title>Philipe Casarotte — Hands-on Product Manager</title>
 		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in web development, client management and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
