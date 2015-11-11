@@ -66,7 +66,7 @@
 							<img src="images/featured-projects/alter-agents.jpg" alt="Alter Agents" width="16" height="9"/>
 							<img src="images/featured-projects/alter-agents-logo.jpg" alt="Alter Agents - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
-								Branding new digital presence for Alter Agents - A market research company.
+								Branding and digital presence for Alter Agents - A market research company.
 							</figcaption>
 						</figure>
 					</a>
