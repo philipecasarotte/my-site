@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Hands-on Product Manager</title>
-		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in web development, client management and digital strategy."/>
+		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in product development, client management and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -25,7 +25,7 @@
 					Philipe Casarotte
 					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#meet-the-team">DBurns</a></small>
 				</h1>
-				<p>I'm a developer with experience in web development, client management and digital strategy.</p>
+				<p>I'm a developer with experience in product development, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
@@ -43,37 +43,37 @@
 				<h3>Previous Experiences</h3>
 				<p>I've previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão”. There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
 				<h3>Education and Awards</h3>
-				<p>I've taught web design for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won Davey and W3 awards. I hold a B.A. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
+				<p>I've taught web development for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won The Communicator, Davey and W3 awards. I hold a B.A. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
 			</div>
 		</section>
 		<section id="recent-work">
 			<div>	
 				<h2>
 					I'm Currently<br/>
-					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">#workingonalteragents</a>
+					<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets">#workingonstaysharp</a>
 				</h2>
-				<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets"><img src="images/logos/alter-agents-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>Launching new brand and website for Alter Agents - A market research company.</p>
+				<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets"><img src="images/logos/nikki-sharp-logo.png" width="94" height="78" alt="Alter Agents"/></a>
+				<p>Stay Sharp be Strong is now Nikki Sharp. Rebranding, digital strategy and digital products.</p>
 			</div>
 		</section>
 		<section id="work">
 			<h2>Selected <strong>projects</strong></h2>
 			<ul>
 				<li>
-					<a href="http://www.zenartsla.com">
-						<h4>ZenArts LA <small>#6awards</small></h4>
+					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">
+						<h4>Alter Agents</h4>
 						<figure>
-							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA" width="16" height="9"/>
-							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>
+							<img src="images/featured-projects/alter-agents.jpg" alt="Alter Agents" width="16" height="9"/>
+							<img src="images/featured-projects/alter-agents-logo.jpg" alt="Alter Agents - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
-								Extravagant corporate event entertainment and production company.
+								Branding new digital presence for Alter Agents - A market research company.
 							</figcaption>
 						</figure>
 					</a>
 				</li>
 				<li>
 					<a href="https://twitter.com/hashtag/workingonbeckmen?vertical=default&f=tweets">
-						<h4>Beckmen Vineyards <small>#3awards</small></h4>
+						<h4>Beckmen Vineyards <small>#5awards</small></h4>
 						<figure>
 							<img src="images/featured-projects/beckmen-vineyards.jpg" alt="Beckmen Vineyards" width="16" height="9"/>
 							<img src="images/featured-projects/beckmen-vineyards-logo.jpg" alt="Beckmen Vineyards - Logo" width="16" height="9" class="replace"/>
@@ -85,13 +85,13 @@
 					</a>
 				</li>
 				<li>
-					<a href="http://www.nixon100.org/exhibit/">
-						<h4>Richard Nixon</h4>
+					<a href="http://www.zenartsla.com">
+						<h4>ZenArts LA <small>#6awards</small></h4>
 						<figure>
-							<img src="images/featured-projects/richard-nixon.jpg" alt="Richard Nixon" width="16" height="9"/>
-							<img src="images/featured-projects/richard-nixon-logo.jpg" alt="Richard Nixon - Logo" width="16" height="9" class="replace"/>
+							<img src="images/featured-projects/zen-arts-la.jpg" alt="Zen Arts LA" width="16" height="9"/>
+							<img src="images/featured-projects/zen-arts-la-logo.jpg" alt="Zen Arts LA - Logo" width="16" height="9" class="replace"/>
 							<figcaption>
-								Digital exposition for exploring the legacy of the president Richard Nixon.
+								Extravagant corporate event entertainment and production company.
 							</figcaption>
 						</figure>
 					</a>
