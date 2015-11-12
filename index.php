@@ -53,7 +53,7 @@
 					<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets">#workingonstaysharp</a>
 				</h2>
 				<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets"><img src="images/logos/nikki-sharp-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>Stay Sharp be Strong is now Nikki Sharp. Rebranding, digital strategy and digital products.</p>
+				<p>Rebranding, digital strategy and products. Stay Sharp be Strong is now Nikki Sharp. </p>
 			</div>
 		</section>
 		<section id="work">
