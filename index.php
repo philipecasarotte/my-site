@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app>
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Hands-on Product Manager</title>
@@ -25,7 +25,7 @@
 					Philipe Casarotte
 					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#meet-the-team">DBurns</a></small>
 				</h1>
-				<p>I'm a developer with experience in product development, client management and digital strategy.</p>
+				<p>I'm a developer with experience in product management, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
@@ -235,8 +235,8 @@
 			ga('require', 'displayfeatures');
 			ga('send', 'pageview');
 		</script>
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js" type="text/javascript"></script>
+		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
 	</body>
 </html>
