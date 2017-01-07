@@ -15,6 +15,17 @@
 		<link href="http://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet" type="text/css"/>
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
 		<link type="text/css" rel="stylesheet" href="/min/b=stylesheets&amp;f=animate.css,default.css,icons.css"/>
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-63270429-2', 'auto');
+			ga('require', 'displayfeatures');
+			ga('send', 'pageview');
+		</script>
     </head>
     <body>
 		<div class="loader-canvas"><img src="/images/loader.png" alt="Loader" title="Loader" class="loader"/></div>
@@ -23,7 +34,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#meet-the-team">DBurns</a></small>
+					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#section-what">DBurns</a></small>
 				</h1>
 				<p>I'm a developer with experience in product management, client management and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
@@ -50,10 +61,10 @@
 			<div>	
 				<h2>
 					I'm Currently<br/>
-					<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets">#workingonstaysharp</a>
+					<a href="https://www.insedia.com">#workingoninsedia</a>
 				</h2>
-				<a href="https://twitter.com/hashtag/workingonstaysharp?vertical=default&f=tweets"><img src="images/logos/nikki-sharp-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>Rebranding, digital strategy and products. Stay Sharp be Strong is now Nikki Sharp. </p>
+				<a href="https://www.insedia.com"><img src="images/logos/insedia-logo.png" width="94" height="78" alt="Alter Agents"/></a>
+				<p>Branding, UX, digital strategy and advertising. The online community that helps you settle. </p>
 			</div>
 		</section>
 		<section id="work">
@@ -225,16 +236,6 @@
 		
 		<!-- Coder & Drummer: I may miss a comma, never the beat. -->
 		
-		<script>
-			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-			ga('create', 'UA-63270429-2', 'auto');
-			ga('require', 'displayfeatures');
-			ga('send', 'pageview');
-		</script>
 		<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
 		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<script type="text/javascript" src="/min/f=javascripts/default.js"></script>
