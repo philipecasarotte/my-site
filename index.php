@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Hands-on Product Manager</title>
-		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in product development, client management and digital strategy."/>
+		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in product management, client management, and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -36,7 +36,7 @@
 					Philipe Casarotte
 					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#section-what">DBurns</a></small>
 				</h1>
-				<p>I'm a developer with experience in product management, client management and digital strategy.</p>
+				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
@@ -52,9 +52,9 @@
 			<div>
 				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy collaborating with people from all disciplines to produce creative digital products. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
 				<h3>Previous Experiences</h3>
-				<p>I've previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão”. There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
+				<p>I've previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão.” There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
 				<h3>Education and Awards</h3>
-				<p>I've taught web development for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won The Communicator, Davey and W3 awards. I hold a B.A. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
+				<p>I've taught web development for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won The Communicator, Davey, and W3 awards. I hold a B.S. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
 			</div>
 		</section>
 		<section id="recent-work">
