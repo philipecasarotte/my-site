@@ -186,16 +186,16 @@
 				</li>
 				<li class="pomodoro">
 					<a href="http://www.pomodorotechnique.com">
-						<strong>Pomodoro</strong>
+						<strong>Basecamp 3</strong>
 						<hr/>
 						<small>For a productive day.</small>
 					</a>
 				</li>
 				<li class="terminal">
 					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
-						<strong>Command Line</strong>
+						<strong>CI</strong>
 						<hr/>
-						<small>/:~ $ git pull .</small>
+						<small>Command Line #ftw</small>
 					</a>
 				</li>
 				<li class="textmate">
