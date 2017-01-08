@@ -193,7 +193,7 @@
 				</li>
 				<li class="terminal">
 					<a href="http://en.wikipedia.org/wiki/Command-line_interface">
-						<strong>Terminal</strong>
+						<strong>Command Line</strong>
 						<hr/>
 						<small>/:~ $ git pull .</small>
 					</a>
