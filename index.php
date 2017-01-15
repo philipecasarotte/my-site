@@ -37,13 +37,14 @@
 					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#section-what">DBurns</a></small>
 				</h1>
 				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
+				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="mobile-only"/>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
 					<i class="fa fa-angle-down"></i>
 					<span><strong>2</strong>minutes</span>
 				</a>
 			</div>
-			<div class="col">
+			<div class="col img-desktop">
 				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="profile-id"/>
 			</div>
 		</header>

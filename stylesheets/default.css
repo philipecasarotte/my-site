@@ -260,6 +260,17 @@ footer nav a {display:inline;text-decoration:none;}
 	header div.intro.col {width:100% !important;float:left;height:40%;margin-top:0;}
 	header div.col {margin-top:115%;}
 }
+
+@media only screen and (orientation:portrait){
+	header div.intro button {padding: 2% 5%;}
+	header div.intro h1 {text-align:center;}
+	header div.intro h1 img {margin:0 auto;text-align:center;}
+	.img-desktop, header div img.profile-id {display:none;}
+	header div img.mobile-only {display:block;position:inherit;width:70%;height:auto;margin:0 auto;}
+}
+
+.mobile-only {display:none;}
+
 /*Animations*/
 a.bounce {
     -webkit-animation-duration: 2s;
