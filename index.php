@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8"/>
         <title>Philipe Casarotte — Hands-on Product Manager</title>
-		<meta name="description" content="Philipe Casarotte is DBurns Production & Product Manager. He is a developer with experience in product management, client management, and digital strategy."/>
+		<meta name="description" content="Philipe Casarotte | Product Manager @ Jukin Media. He is a developer with experience in product management, client management, and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -34,7 +34,7 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>Production &amp; Product Manager for <a href="http://www.dburnsdesign.com/about-us/#section-what">DBurns</a></small>
+					<small>Product Manager @ <a href="http://www.jukinmedia.com">Jukin Media</a></small>
 				</h1>
 				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
 				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="mobile-only"/>
@@ -62,14 +62,14 @@
 			<div>	
 				<h2>
 					I'm Currently<br/>
-					<a href="https://www.insedia.com">#workingoninsedia</a>
+					<a href="https://www.jukinmedia.com">#workingatjukinmedia</a>
 				</h2>
-				<a href="https://www.insedia.com"><img src="images/logos/insedia-logo.png" width="94" height="78" alt="Alter Agents"/></a>
-				<p>Branding, UX, digital strategy and advertising. The online community that helps you settle. </p>
+				<a href="https://www.jukinmedia.com"><img src="images/logos/jukinmedia-logo.png" width="94" height="78" alt="Jukin Media"/></a>
+				<p>On-going work in 3 different products, B2C, B2B, and internal tools.</p>
 			</div>
 		</section>
 		<section id="work">
-			<h2>Selected <strong>projects</strong></h2>
+			<h2>Selected <strong> past projects</strong></h2>
 			<ul>
 				<li>
 					<a href="https://twitter.com/hashtag/workingonalteragents?vertical=default&f=tweets">
