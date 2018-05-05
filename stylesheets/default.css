@@ -138,7 +138,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div img {width:100%;height:auto;position:absolute;bottom:-50%;left:2%;}
 	header div.intro.col {width:100% !important;float:left;height:40%;margin-top:0;}
 	header div.col {margin-top:115%;}
-	header div.intro p {font-size:36px;line-height:38px;margin-bottom:0;text-align:center;}
+	header div.intro p {font-size:32px;line-height:34px;margin-bottom:0;text-align:center;}
 	header div.intro p strong {display:block;}
 	header div.intro button {width:100%;font-size:28px;}
 	header div.intro h1 {font-size:12vw;}
@@ -209,7 +209,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:240px;}
 	header div img {width:100%;height:auto;position:absolute;bottom:-50%;left:2%;}
 	header div.intro {width:100%;float:left;}
-	header div.intro p {font-size:18px;line-height:24px;margin-bottom:0;text-align:center;padding:0;}
+	header div.intro p {font-size:16px;line-height:20px;margin-bottom:0;text-align:center;padding:0;}
 	header div.intro button {width:90%;font-size:28px;margin-left:5%;}
 	header div.intro h1 small {font-size:12px;width:80%;margin-left:-10%;bottom:-15%;}
 	header div.intro a.animated {display:none}
