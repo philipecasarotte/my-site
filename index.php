@@ -2,8 +2,8 @@
 <html ng-app>
     <head>
         <meta charset="utf-8"/>
-        <title>Philipe Casarotte — Hands-on Product Manager</title>
-		<meta name="description" content="Philipe Casarotte | Product Manager @ Jukin Media. He is a developer with experience in product management, client management, and digital strategy."/>
+        <title>Philipe Casarotte — Sr. Product Manager | People, Processes, and Product.</title>
+		<meta name="description" content="Philipe Casarotte | Sr. Product Manager @ Jukin Media. He is a software engineer, with experience in product management, client management, and digital strategy."/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 		<meta name="google-site-verification" content="_Ao4wv72VkOYnYgvu27J2vGEUOhSnDTXPq56_x9LZiM"/>
@@ -34,9 +34,9 @@
 			<div class="intro col">
 				<h1>
 					Philipe Casarotte
-					<small>Product Manager @ <a href="http://www.jukinmedia.com">Jukin Media</a></small>
+					<small>Sr. Product Manager @ <a href="http://www.jukinmedia.com">Jukin Media</a></small>
 				</h1>
-				<p>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</p>
+				<p>People, Processes, and Products. I believe you need to account for people first, your users, understand the job they are trying to do, processes and workflows, and then finally focus on solving their problem, the actual product.</p>
 				<img src="images/philipe-casarotte.png" width="1480" height="1712" alt="Philipe Casarotte" class="mobile-only"/>
 				<button rel="#bio">FULL BIO &raquo;</button>
 				<a href="#bio" class="animated infinite bounce" rel="#bio">
@@ -49,11 +49,13 @@
 			</div>
 		</header>
 		<section id="bio">
-			<p class="intro"><big><strong>Bio: </strong>I guide clients in all aspects of their web development project from the initial strategy and scope to the project management. I strategize end-to-end launch plans for my clients' products and services.</big></p>
+			<p class="intro"><big><strong>Bio: </strong>I'm a product manager with hands-on experience in software development, client management, and digital strategy.</big></p>
 			<div>
-				<p>My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy collaborating with people from all disciplines to produce creative digital products. My ability to deeply understand the technical aspects of web development as well as the business and marketing facets allows me to quickly connect with other team members and clients.</p>
+				<p>At Jukin we want to crack the code of videos and the reason why we all love watching them. I work alongside stakeholders, and engineers in incrimental product improvements, user interviews, data analyses and modeling, and designing unique user experiences to our internal and externals audiences.</p>
+				<p>I see a Product Roadmap as a living creature that needs to be constantly adjusted as data is gathered. My diverse background includes roles in client relations, project management, front- and back-end development, UX/UI and digital strategy. I enjoy collaborating with people from all disciplines to produce creative digital products.</p>
 				<h3>Previous Experiences</h3>
-				<p>I've previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão.” There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
+				<p>While at <a href="">DBurns</a>, I guided clients in all aspects of their web development project from the initial strategy and scope to the project management. I strategized end-to-end launch plans for clients' products and services.</p>
+				<p>I've also previously worked as an IT analyst at <a href="http://en.wikipedia.org/wiki/Sumitomo_Corporation">Sumitomo Corporation</a>, a global Japanese trading company. I was also a graphic designer and software engineer for one of Brazil's largest newspapers, <a href="http://en.wikipedia.org/wiki/O_Estado_de_S._Paulo">O Estado de S. Paulo</a>, “the Estadão.” There, I helped to develop an automation software which was later sold to top-tier Brazilian universities such as <a href="http://en.wikipedia.org/wiki/FGV_Direito_Rio">Fundação Getulio Vargas do Rio de Janeiro</a>.</p>
 				<h3>Education and Awards</h3>
 				<p>I've taught web development for two universities, <a href="http://www.sp.senac.br/"  hreflang="pt-BR">Serviço Nacional de Aprendizagem Comercial</a> and <a href="http://pt.wikipedia.org/wiki/Faculdade_Santa_Marcelina" alt="FASM-SP (pt-BR)" title="FASM-SP (pt-BR)" hreflang="pt-BR">Faculdade Santa Marcelina</a>, and I'm honored that my work has won The Communicator, Davey, and W3 awards. I hold a B.S. in Digital Media from <a href="http://en.wikipedia.org/wiki/Pontif%C3%ADcia_Universidade_Cat%C3%B3lica_de_S%C3%A3o_Paulo">Pontifícia Universidade Católica de São Paulo</a>.</p>
 			</div>
@@ -65,7 +67,7 @@
 					<a href="https://www.jukinmedia.com">#workingatjukinmedia</a>
 				</h2>
 				<a href="https://www.jukinmedia.com"><img src="images/logos/jukinmedia-logo.png" width="94" height="78" alt="Jukin Media"/></a>
-				<p>On-going work in 3 different products, B2C, B2B, and internal tools.</p>
+				<p>Jukin Media - The future of story telling is user generated.</p>
 			</div>
 		</section>
 		<section id="work">
@@ -165,8 +167,8 @@
 					</a>
 				</li>
 				<li class="philz-coffee">
-					<a href="http://www.philzcoffee.com">
-						<strong>Philz Coffee</strong>
+					<a href="http://www.primopassocoffee.com">
+						<strong>Primo Passo</strong>
 						<hr/>
 						<small>Favorite coffee shop.</small>
 					</a>
@@ -186,8 +188,8 @@
 					</a>
 				</li>
 				<li class="basecamp">
-					<a href="http://www.basecamp.com">
-						<strong>Basecamp 3</strong>
+					<a href="https://www.atlassian.com/software/jira">
+						<strong>JIRA</strong>
 						<hr/>
 						<small>For a productive day.</small>
 					</a>
