@@ -142,7 +142,7 @@ footer nav a {display:inline;text-decoration:none;}
 	header div.intro p strong {display:block;}
 	header div.intro button {width:100%;font-size:28px;}
 	header div.intro h1 {font-size:12vw;}
-	header div.intro h1 small {font-size:18px;width:60%;margin-left:0%;bottom:-10%;}
+	header div.intro h1 small {font-size:12px;width:60%;margin-left:0%;bottom:-10%;}
 	header div.intro a.animated {display:none}
 	
 	#bio p.intro {width:90%;}
