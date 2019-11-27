@@ -56,13 +56,13 @@ header div.intro a.animated:hover span, header div.intro a.animated:hover span s
 #bio h3 {border-bottom:1px solid black;}
 #bio p a {font-size:16px;}
 
-#recent-work {background:url(../images/desk-angle.jpg) center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;}
+#recent-work {background:url(../images/desk-angle.jpg) center top;background-size:cover;color:white;position:relative;float:left;width:100%;height:auto;text-align:center;-webkit-filter: grayscale(100%);filter: grayscale(100%);}
 #recent-work h2 {border-color:white;}
 #recent-work h2 a {font-family:Georgia, "Times New Roman", Times, serif;text-transform:lowercase;font-style:italic;background-color:#FAC200;color:black;}
 #recent-work h2 a:hover {color:white;}
 #recent-work h2, #recent-work h3, #recent-work a {color:white;}
 #recent-work p, #stats p {padding:0;border:none;clear:both;line-height:1.2em;margin-bottom:0;}
-#recent-work img {margin:4em 0;width:20%;height:auto;}
+#recent-work img {margin:4em 0;width:20%;height:auto;-webkit-filter: none;filter: none;}
 #recent-work img:hover {opacity:0.6;}
 
 #work {background-color:#F3F2EE;}
