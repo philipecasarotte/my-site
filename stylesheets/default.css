@@ -49,7 +49,7 @@ header div.intro a.animated span strong {display:block;font-size:3em;margin-top:
 header div.intro a.animated:hover span, header div.intro a.animated:hover span strong {color:#333;}
 
 #bio {padding:5%;}
-#bio p.intro, #recent-work p, #stats p {font-size:28px;line-height:44px;width:60%;font-style:italic;text-align:center;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;max-width:740px;}
+#bio p.intro, #recent-work p, #stats p {font-size:28px;line-height:46px;width:60%;font-style:normal;text-align:left;margin:0 auto;border-top:3px solid black;padding-top:2em;margin-bottom:2em;max-width:740px;}
 #bio p.intro strong, #bio p a {font-family:"Fjalla One", sans-serif;font-weight:400;font-style:normal;text-transform:uppercase;}
 #bio div {-webkit-column-count:2;-moz-column-count:2;column-count:2;width:60%;margin:0 auto;max-width:740px;}
 #bio h2, #bio h3 {color:black;}
