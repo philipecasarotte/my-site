@@ -209,14 +209,14 @@ footer nav a {display:inline;text-decoration:none;}
 	header div {width:100%;height:auto;float:left;flex:none;position:relative;height:240px;}
 	header div img {width:100%;height:auto;position:absolute;bottom:-50%;left:2%;}
 	header div.intro {width:100%;float:left;}
-	header div.intro p {font-size:16px;line-height:20px;margin-bottom:0;text-align:center;padding:0;}
+	header div.intro p {font-size:16px;line-height:20px;margin-bottom:16px;text-align:left;padding:0;}
 	header div.intro button {width:90%;font-size:28px;margin-left:5%;}
-	header div.intro h1 small {font-size:12px;width:80%;margin-left:-10%;bottom:-15%;}
+	header div.intro h1 small {font-size:14px;width:80%;margin-left:-10%;bottom:-15%;}
 	header div.intro a.animated {display:none}
 	
 	#bio {padding-top:15%;}
-	#bio p.intro big {font-size:18px;line-height:24px;width:90%;}
-	#bio p.intro {font-size:18px;line-height:24px;width:90%;}
+	#bio p.intro big {font-size:16px;line-height:24px;width:90%;}
+	#bio p.intro {font-size:16px;line-height:24px;width:90%;}
 	#bio div {-webkit-column-count:1;-moz-column-count:1;column-count:1;width:90%;margin:0 auto;}
 	#bio div p {font-size:16px;line-height:26px;}
 	
